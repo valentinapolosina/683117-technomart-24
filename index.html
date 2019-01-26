@@ -16,13 +16,13 @@
             <div class="container">
                 <h2 class="logo">Техномарт</h2>
                 <form action="https://echo.htmlacademy.ru" class="search-menu" method="post">
-                    <button class="button-search" aria-label="поиск" type="submit">-</button>
+                    <button class="button-search" aria-label="найти" type="submit"></button>
                     <label for="search" class="visually-hidden">поиск</label>
                     <input type="text" id="search" name="input-searches" value="" placeholder="поиск">
                 </form>
                 <ul class="button-top-menu">
                     <li class="bookmarks">
-                        <a class="button button-bookmarks " href="bookmarks.html"> Закладки: 0</a>
+                        <a class="button button-bookmarks" href="bookmarks.html"> Закладки: 0</a>
                     </li>
                     <li class="box">
                         <a class="button-box" href="box.html">Корзина: 0</a>
@@ -58,105 +58,104 @@
     </header>
     <main class="main">
         <section class="list-items">
-            <div class="list-wrapper">
-                <ul class="materials">
-                    <li class="list-item">Материалы</li>
-                    <li><a class="button button-list" href="materials.html">На любой вкус</a></li>
-                </ul>
-                <ul class="instruments">
-                    <li class="list-item">Инструменты</li>
-                    <li><a class="button button-list" href="instruments.html">На все случаи </a></li>
-                </ul>
-                <ul class="drills">
-                    <li class="list-drills"><h5>Дрели</h5></li>
-                    <li>Соседям на радость!</li>
-                    <li><a class="catalog" href="catalog.html">Открыть каталог</a></li>
-                </ul>
-                <ul class="slider-perforators">
-                    <li class="list-perforators"><h5>Перфораторы</h5></li>
-                    <li>Настоящие мужские игрушки</li>
-                    <li><a class="catalog" href="catalog.html">Открыть каталог</a></li>
-                </ul>
-            </div>
-            <div class="wrapper">
-                <ul class="equipment">
-                    <li class="list-item">Техника</li>
-                    <li><a class="button button-list" href="equipment.html">Для стройки</a></li>
-                </ul>
-                <ul class="sale">
-                    <li class="list-item">Скидки 50%</li>
-                    <li><a class="button button-list">На 350 товаров</a></li>
-                </ul>
-                <ul class="delivery">
-                    <li class="list-item">Доставка</li>
-                    <li><a class="button button-list">Бесплатно</a></li>
-                </ul>
-            </div>
+            <ul class="list-wrapper">
+                  <li class="materials">
+                    <p class="list-item">Материалы</p>
+                    <a class="button button-list" href="materials.html">на любой вкус</a>
+                </li>
+                <li class="instruments">
+                    <p class="list-item">Инструменты</p>
+                    <a class="button button-list" href="instruments.html">на все случаи</a>
+                </li>
+                <li class="drills">
+                    <h5 class="list-drills">Дрели</h5>
+                    <p>Соседям на радость!</p>
+                    <a class="catalog" href="catalog.html">открыть каталог</a>
+                </li>
+                <li class="slider-perforators">
+                    <h5 class="list-perforators">перфораторы</h5>
+                    <p>настоящие мужские игрушки</p>
+                    <a class="catalog" href="catalog.html">открыть каталог</a>
+                </li>
+            </ul>
+            <ul class="wrapper">
+                <li class="equipment">
+                    <p class="list-item">Техника</p>
+                    <a class="button button-list" href="equipment.html">Для стройки</a>
+                </li>
+                <li class="sale">
+                    <p class="list-item">Скидки 50%</p>
+                    <a class="button button-list">На 350 товаров</a>
+                </li>
+                <li class="delivery">
+                    <p class="list-item">Доставка</p>
+                    <a class="button button-list">Бесплатно</a>
+                </li>
+            </ul>
         </section>
         <section class="good-and-catalog">
-            <ul class="popular-goods">
-                <li class="popular"><h3>Популярные товары:</h3></li>
-                <li><a class="button button-popular">Все популярные товары</a></li>
-            </ul>
-            <div class="catalog-items">
-                <div class="bosh-9000">
+            <div class="popular-manufacturers">
+                <h3 class="popular">Популярные производители:</h3>
+                <a class="button button-popular">все производители</a>
+            </div>
+            <ul class="catalog-items">
+                <li class="bosh-9000">
                     <div class="actions">
                         <a href="#" class="button button-buy">Купить</a>
                         <a href="#" class="button button-bookmark">В закладки</a>
                     </div>
-                    <div class="image"><img width="218" height="168" src=""></div>
+                    <div class="image"><img src="img/perforator-3.png" width="184" height="164" alt="Перфоратор BOSCH BFG 9000"></div>
                     <div class="title">Перфоратор BOSCH BFG 9000</div>
                     <div class="discount">32 500 Р.</div>
                     <div class="price">25 500 Р.</div>
-                    </div>
-                <div class="bosh-3000">
+                </li>
+                <li class="bosh-3000">
                     <div class="actions">
                         <a href="#" class="button button-buy">Купить</a>
                         <a href="#" class="button button-bookmark">В закладки</a>
                     </div>
-                    <div class="image"><img width="218" height="168" src=""></div>
+                    <div class="image"><img src="img/perforator-1.png" width="127" height="112" alt="Перфоратор BOSCH BFG 3000"></div>
                     <div class="title">Перфоратор BOSCH BFG 3000</div>
                     <div class="discount">22 500 Р.</div>
                     <div class="price">15 500 Р.</div>
-                </div>
-                <div class="bosh-6000">
+                </li>
+                <li class="bosh-6000">
                     <div class="actions">
                         <a href="#" class="button button-buy">Купить</a>
                         <a href="#" class="button button-bookmark">В закладки</a>
                     </div>
-                    <div class="image"><img width="218" height="168" src=""></div>
+                    <div class="image"><img src="img/perforator-2.png" width="144" height="128" alt="Перфоратор BOSCH BFG 6000"></div>
                     <div class="title">Перфоратор BOSCH BFG 6000</div>
                     <div class="discount">30 500 Р.</div>
                     <div class="price">25 500 Р.</div>
-                </div>
-                    <div class="bosh-2000">
-                        <div class="actions">
-                            <a href="#" class="button button-buy">Купить</a>
-                            <a href="#" class="button button-bookmark">В закладки</a>
-                        </div>
-                            <div class="image"><img width="218" height="168" src=""></div>
-                            <div class="title">Перфоратор BOSCH BFG 2000</div>
-                            <div class="price">12 500 Р.</div>
+                </li>
+                <li class="bosh-2000">
+                    <div class="actions">
+                        <a href="#" class="button button-buy">Купить</a>
+                        <a href="#" class="button button-bookmark">В закладки</a>
                     </div>
-                </div>
-            </section>
-            <section class="manufacturers">
-                <ul class="popular-manufacturers">
-                    <li class="popular"><h3>Популярные производители:</h3></li>
-                    <li><a class="button button-popular">все производители</a></li>
+                        <div class="image"><img src="img/perforator-1.png" width="127" height="112" alt="Перфоратор BOSCH BFG 2000"></div>
+                        <div class="title">Перфоратор BOSCH BFG 2000</div>
+                        <div class="price">12 500 Р.</div>
+                </li>
+            </ul>
+        </section>
+        <section class="manufacturers">
+            <div class="popular-manufacturers">
+                <h3 class="popular">Популярные производители:</h3>
+                <a class="button button-popular">Все производители</a>
+            </div>
+            <div class="manufacturers-items">
+                <ul class="manufacturers">
+                    <li><a href="#"><img src="img/bosch.png" width="126" height="37" alt="Bosch"></a></li>
+                    <li><a href="#"><img src="img/Makita.png" width="123" height="40" alt="Makita"> </a></li>
+                    <li><a href="#"><img src="img/DeWALT.png" width="146" height="44" alt="DeWalt"></a></li>
+                    <li><a href="#"><img src="img/interskoll.png" width="200" height="88" alt="Interskol"></a></li>
+                    <li><a href="#"><img src="img/Hitachi.png" width="169" height="31" alt="Hitachi"></a></li>
+                    <li><a href="#"><img src="img/LG.png" width="121" height="73" alt="LG"></a></li>
+                    <li><a href="#"><img src="img/AEG.png" width="151" height="96" alt="AEG"></a></li>
+                    <li><a href="#"><img src="img/Metabo.png" width="204" height="69" alt="Metabo"></a></li>
                 </ul>
-                <div class="manufacturers-items">
-                    <ul class="manufacturers">
-                        <li><a href="#">Bosh</a></li>
-                        <li><a href="#">makita</a></li>
-                        <li><a href="#">dewalt</a></li>
-                        <li><a href="#">interskol</a></li>
-                        <li><a href="#">hitachi</a></li>
-                        <li><a href="#">lg</a></li>
-                        <li><a href="#">aeg</a></li>
-                        <li><a href="#">metabo</a></li>
-                    </ul>
-                </div>
             </div>
         </section>
         <section class="service-delivery">
@@ -198,7 +197,7 @@
             <div class="contacts">
                 <h4 class="contact">Контакты</h4>
                 <p class="contact-slogan">Вы можете забрать товар сами, заехав в наш офис:</p>
-                <div class="map"><a href="#"></a></div>
+                <div class="map"><a href="#"><img src="img/big-map.png" width="970" height="176" alt="Карта"></a></div>
                 <button class="button-letter" type="buton">Заблудились? Напишите нам</a>
             </div>
         </section> 
@@ -241,18 +240,27 @@
             <a class="site" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
     	</div>
     </footer>
-    <section class="poppap">
+    <section class="popup">
         <form class="user" method="post" action="https://echo.htmlacademy.ru">
-            <p><label for="user-login">Ваше имя</label><input id="user-login" type="text"name="login" placeholder="имя фамилия"></p>
-            <p><label for="user-email">Ваш e-mail</label><input id="user-email" type="email"name="email" placeholder="email@example.com"></p>
-            <p><label for="user-letter">Текст письма</label><input id="user-letter" type="text"name="letter" placeholder="В свободной форме"></p>
-            <button type="submit">отправить</button>
+            <p class="your-name">
+                <label for="user-login">Ваше имя</label>
+                <input id="user-login" type="text"name="login" placeholder="имя фамилия">
+            </p>
+            <p class="your-email">
+                <label for="user-email">Ваш e-mail</label>
+                <input id="user-email" type="email"name="email" placeholder="email@example.com">
+            </p>
+            <p class="your-letter">
+                <label for="user-letter">Текст письма</label>
+                <input id="user-letter" type="text"name="letter" placeholder="В свободной форме">
+            </p>
+            <button type="submit">Отправить</button>
         </form>
     </section>
     <section class="cart">
             <p class="added">Товар добавлен в корзину!</p>
-            <a class="execution">оформить заказ</a>
-            <a class="continuation">продолжить покупки</a>
+            <a class="execution">Оформить заказ</a>
+            <a class="continuation">Продолжить покупки</a>
     </section>
 </body>
 </html>
