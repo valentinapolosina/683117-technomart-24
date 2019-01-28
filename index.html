@@ -164,9 +164,18 @@
                 <p class="slogan-service">Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными</p>
             </div>
             <ul class="service-block">
-                <li><button class="button delivery-button" type="radio" name="delivery-radio" checked>Доставка</button></li>
-                <li><button class="button warranty-button" type="radio" name="warranty-radio">Гарантия</button></li>
-                <li><button class="button credit-button" type="radio" name="credit-radio">Кредит</button></li>
+                <li>
+                    <input class="visually-hidden delivery-button" type="radio" name="service" value="delivery-radio" id="delivery-radio" checked>
+                    <label for="delivery-radio">Доставка</label>
+                </li>
+                <li>
+                    <input class="visually-hidden warranty-button" type="radio" name="service" value="warranty-radio" id="warranty-radio">
+                    <label for="warranty-radio">Гарантия</label>
+                </li>
+                <li>
+                    <input class="visually-hidden credit-button" type="radio" name="service" value="credit-radio" id="credit-radio">
+                    <label for="credit-radio">Кредит</label>
+                </li>
             </ul>
             <div class="delivery-item">
                 <h6 class="item-name">Доставка</h6>
@@ -233,7 +242,7 @@
     	</ul>
     	<div class="wrapper-feedback">
     	    <p class="feedback">Обратная связь:</p>
-    	    <a class="email" href="href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+    	    <a class="email" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
     	</div>
     	<div class="wrapper-site">
     	    <p class="developed">Разработано</p>
@@ -244,21 +253,21 @@
         <form class="user" method="post" action="https://echo.htmlacademy.ru">
             <p class="your-name">
                 <label for="user-login">Ваше имя</label>
-                <input id="user-login" type="text"name="login" placeholder="имя фамилия">
+                <input id="user-login" type="text" name="login" placeholder="имя фамилия">
             </p>
             <p class="your-email">
                 <label for="user-email">Ваш e-mail</label>
-                <input id="user-email" type="email"name="email" placeholder="email@example.com">
+                <input id="user-email" type="email" name="email" placeholder="email@example.com">
             </p>
             <p class="your-letter">
                 <label for="user-letter">Текст письма</label>
-                <input id="user-letter" type="text"name="letter" placeholder="В свободной форме">
+                <input id="user-letter" type="text" name="letter" placeholder="В свободной форме">
             </p>
             <button type="submit">Отправить</button>
         </form>
     </section>
     <section class="cart">
-            <p class="added" href="#">Товар добавлен в корзину!</p>
+            <p class="added">Товар добавлен в корзину!</p>
             <a class="execution" href="#">Оформить заказ</a>
             <a class="continuation" href="#">Продолжить покупки</a>
     </section>
