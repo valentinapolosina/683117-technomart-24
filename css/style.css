@@ -1,12 +1,10 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-size: 13px;
-  line-height: 24px;
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
   font-weight: normal;
-  color: #000000;
-  text-transform: none;
   background-color: #ffffff;
   background-position: top center;
   background-repeat: no-repeat;
@@ -15,6 +13,12 @@ body {
 a {
   text-decoration: none;
   cursor: pointer;
+  color: #ffffff;
+
+}
+
+.container {
+background-color: #293449;
 }
 
 .visually-hidden:not(:focus):not(:active),
@@ -33,16 +37,347 @@ input[type="radio"].visually-hidden {
   overflow: hidden;
 }
 
+.container {
+background-color: #293449;
+}
+
+.middle-menu {
+  background-color: #f3f7f9;
+}
+
 .button {
   border: none;
   cursor: pointer;
 }
 
 .logo {
-  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 24px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: normal;
+  background-color: #ee3643;  
+  text-transform: uppercase;
+}
+
+.button-top-menu {
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.number {
+  font-size: 21px;
+  line-height: 21px;
+  color: #ee3643;
+}
+
+.store {
+  font-size: 16px;
+  line-height: 23px;
+  color: #ee3643;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.address {
+  font-size: 14px;
+  line-height: 24px;
+  color: #32425c;
+  font-weight: normal;
+}
+
+.login-and-registration {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: normal;
+  color: #000000;
+}
+
+.site-navigation {
+  margin: 0px;
+  padding: 0px;
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: normal;
+  color: #ffffff;
+  background-color: #32425c;
+}
+
+.list-items {
+  color: #ffffff;
+}
+
+.list-item {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.button-list {
+  font-weight: normal;
+}
+
+.catalog {
+  font-weight: normal;
+  background-color: #ee3643;
+  text-transform: uppercase;
+}
+
+.materials {
+  background-color: #ffbf47;
+}
+
+.instruments {
+  background-color: #3bbce3;
+}
+
+.equipment {
+  background-color: #dc91d8;
+}
+
+.sale {
+  background-color: #8ed78f;
+}
+
+.delivery {
+  background-color: #ffc047;
+}
+
+.slider-name {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.drills-slogan {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: normal;
+}
+
+.perforators-slogan {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: normal;
+}
+
+.drills {
+  background-image: url("../img/drills-man.jpg");
+  background-repeat: no-repeat;
+}
+
+.slider-perforators {
+  background-image: url("../img/perforator-man.jpg");
+  background-repeat: no-repeat;
+}
+
+.catalog {
+  font-weight: normal;
+}
+
+.popular-manufacturers{
+  background-color: #f9f5f0;
+}
+
+.popular {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: normal;
+  color: #32425c;
+  text-transform: uppercase;
+}
+
+
+.catalog-items {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.button-buy {
+  font-weight: normal;
+  background-color: #63a63e;
+  text-transform: uppercase;
+}
+
+.button-bookmark {
+  color: #32425c;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.title {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.discount {
+  font-family: "PT Sans", "Arial", sans-serif;
+  color: #999999;
+  font-size: 17px;
+  font-weight: normal;
+  text-decoration: line-through;
+}
+
+.price {
+  font-family: "PT Sans", "Arial", sans-serif;
+  background-color: #ee3643;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+.manufacturers {
+  padding: 0px;
+  margin: 0px;
+  list-style: none; 
+}
+
+.service-delivery {
+  background-color: #f4f8f9;
+}
+
+.service {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.service-block {
+  padding: 0px;
+  margin: 0px;
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #32425c; 
+}
+
+.item-name {
+  color: #32425c;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.send-request {
+  color: #ffffff;
+  background-color: #ff5357;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.company-techomart {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.contact {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.slogan{
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: normal;
+}
+
+.company-list {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: normal;
+}
+
+.button {
+  font-weight: normal;
+  text-transform: uppercase;
+  background-color: #ee3643;
+}
+
+.button-more {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.top-footer {
+  background-color: #32425c;
+}
+
+.footer-logo {
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 30px;
+  background-color: #ee3643;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.footer-adress {
+  font-size: 18px;
   line-height: 24px;
   font-weight: normal;
   color: #ffffff;
-  background-color: #ee3643;
+}
+
+.footer-number {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: normal;
+}
+
+.footer-navigation {
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer-navigation-wrapper {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.footer-catalog {
+  margin: 0px;
+  padding: 0px;
+  color: #ffda96;
+}
+
+.bottom-footer {
+  background-color: #293449;
+  font-size: 16px;
+  font-weight: 18px;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.site {
+  color: #ffd180;
+}
+
+.email {
+  color: #ffd180;
+}
+
+.user-information {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 18px;
+  color: #000000;
 }
