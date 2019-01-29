@@ -12,7 +12,7 @@
 
 <body>
     <header class="main-header">
-        <section class="top-menu">
+        <div class="top-menu">
             <div class="container">
                 <h2 class="logo">Техномарт</h2>
                 <form action="https://echo.htmlacademy.ru" class="search-menu" method="post">
@@ -32,8 +32,8 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="middle-menu">
+        </div>
+        <div class="middle-menu">
             <h1 class="store">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
             <div class="contact-header">
                 <a href="tel:+78125550555" class="number">+7(812)555-05-55</a>
@@ -43,10 +43,10 @@
                 <a class="login-link" href="login.html">Войти</a>
                 <a class="registration-link" href="registration.html">Регистрация</a>
             </div>
-        </section>
+        </div>
         <nav class="main-menu">
             <ul class="site-navigation">
-                <li><span>Главная<span>
+                <li><a>Главная<a>
                 <li><a href="company.html">Компания</a></li>
                 <li><a href="catalog.html">Каталог</a></li>
                 <li><a href="news.html">Новости</a></li>
@@ -183,19 +183,20 @@
             </ul>
             <div class="delivery-item">
                 <h6 class="item-name">Доставка</h6>
-                <p class="slogan-name slogan">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
+                <p class="slogan">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
             </div>
             <div class="warranty-item">
                 <h6 class="item-name">Гарантия</h6>
-                <p class="slogan-name slogan">Если купленный у нас товар поломается или заискрит, а также в случае пожара,спровоцированного его вогаранием, вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый. Дом уж восстановите как-нибудь сами.</p>
+                <p class="slogan">Если купленный у нас товар поломается или заискрит, а также в случае пожара,спровоцированного его вогаранием, вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый. Дом уж восстановите как-нибудь сами.</p>
             </div>
             <div class="credit-item">
                 <h6 class="item-name">Кредит</h6>
-                <p class="slogan-name slogan">Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
+                <p class="slogan">Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
                 <a class="send-request button" href="#"> Отправить заявку </a>
             </div>
         </section>
         <section class="company-contacts">
+            <h3 class="visually-hidden">О компании и адрес</h3>
             <div class="company">
                 <h5 class="company-techomart">Компания «Техномарт»</h5>
                 <p class="company-slogan slogan">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах</p>
@@ -205,13 +206,17 @@
                     <li class="business-line">Деловые линии</li>
                     <li class="autotrading">Автотрейдинг</li>
                     <li class="railways">ЖелДорЭкспедиция</li>
-                    <li><a class="button-more button" href="company.html">Подробнее о компании</a></li>
                 </ul>
+                <a class="button-more button" href="company.html">Подробнее о компании</a>
             <div class="contacts">
                 <h5 class="contact">Контакты</h5>
                 <p class="contact-slogan slogan">Вы можете забрать товар сами, заехав в наш офис:</p>
                 <div class="map"><a href="#"><img src="img/big-map.png" width="970" height="176" alt="г. Санкт-Петербург, ул Б. Конюшенная д. 19/8"></a></div>
-                <a class="button-letter button" href="">Заблудились? Напишите нам</a>
+                <div class="map-popup">
+                    <img src="" width="" height="">
+                    <button type="button" name="close" class="button-close"><span class="visually-hidden">Закрыть карту</span></button>
+                </div>
+                <a class="button-letter button" href="#">Заблудились? Напишите нам</a>
             </div>
         </section> 
     </main>
@@ -264,14 +269,14 @@
                 <input id="user-email" type="email" name="email" placeholder="email@example.com">
             </p>
             <p class="your-letter user-information">
-                <label for="user-letter">Текст письма</label>
-                <input id="user-letter" type="text" name="letter" placeholder="В свободной форме">
+                <span for="user-letter">Текст письма:</span>
+                <textarea name="text-letter" placeholder="В свободной форме"></textarea>
             </p>
             <button сlass="button button-send" type="submit">Отправить</button>
         </form>
     </section>
     <section class="cart">
-            <p class="added">Товар добавлен в корзину!</p>
+            <p class="added" href="#">Товар добавлен в корзину!</p>
             <a class="execution" href="#">Оформить заказ</a>
             <a class="continuation" href="#">Продолжить покупки</a>
     </section>

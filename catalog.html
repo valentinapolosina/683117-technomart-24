@@ -12,7 +12,7 @@
 
   <body class="inner-page">
     <header class="main-header">
-       <section class="top-menu">
+        <div class="top-menu">
           <div class="container">
               <h2 class="logo"><a class="button button-logo" href="techomart.html">Техномарт</a></h2>
               <form action="https://echo.htmlacademy.ru" class="search-menu" method="post">
@@ -32,9 +32,8 @@
                     </div>
                 </div>
           </div>
-
-        </section>
-         <section class="middle-menu">
+        </div>
+         <div class="middle-menu">
             <h1 class="store">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
             <div class="contact-header">
                 <a href="tel:+78125550555" class="number">+7(812)555-05-55</a>
@@ -46,12 +45,12 @@
                 <a class="orders-link" href="orders.html">Мои заказы</a>
                 <a class="personal-link" href="personal.html">Личный Кабинет</a>
             </div>
-        </section>
+        </div>
           <nav class="main-menu">
             <ul class="site-navigation">
-                <li><a href="homepage.html">Клавная</a></li>
+                <li><a href="index.html">Главная</a></li>
                 <li><a href="company.html">Компания</a></li>
-                <li><a href="catalog.html">Каталог</a></li>
+                <li><a>Каталог</a></li>
                 <li><a href="news.html">Новости</a></li>
                 <li><a href="special-offers.html">Спецпредложения</a></li>
                 <li><a href="delivery.html">Доставка</a></li>
@@ -63,17 +62,17 @@
         <section class="menu">
             <div class="menu-wrapper">
                 <ul class="breadcrumbs ">
-                    <li class="visually-hidden">главная</li>
-                    <li><a class="catalog-menu" href="catalog.html">каталог</a></li>
-                    <li><a class="instruments-menu" href="instruments.html">инструмент</a></li>
-                    <li><a class="perforators-menu" href="perforators.html">перфораторы</a></li>
+                    <li class="visually-hidden">Главная</li>
+                    <li><a class="catalog-menu" href="catalog.html">Каталог</a></li>
+                    <li><a class="instruments-menu" href="instruments.html">Инструмент</a></li>
+                    <li><a class="perforators-menu" href="perforators.html">Перфораторы</a></li>
                 </ul>
                 <h3 class="perforators-title">Перфораторы</h3>
             </div>
         </section>
         <section class="filter-list">
-            <p class="filters">фильтр:</p>
-             <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+            <p class="filters">Фильтр:</p>
+              <form class="filter" method="get" action="https://echo.htmlacademy.ru">
                   <fieldset>
                       <legend>Цена:</legend> 
                       <div class="range-filter">
@@ -89,8 +88,6 @@
                           <input class="max-price" type="text" name="max-price" value="30000">
                       </div>
                   </fieldset>
-              </form>
-              <form class="filter" method="get" action="https://echo.htmlacademy.ru">
                   <fieldset>
                       <legend>Производители:</legend>
                       <ul>
@@ -104,20 +101,20 @@
                           </li>
                           <li class="filter-option">
                               <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="makita" id="filter-makita" checked>
-                              <label for="filter-makita">makita</label>
+                              <label for="filter-makita">Makita</label>
                           </li>
                           <li class="filter-option">
                               <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="dewalt" id="filter-dewalt">
-                              <label for="filter-dewalt">dewalt</label>
+                              <label for="filter-dewalt">Dewalt</label>
                           </li>
                           <li class="filter-option">
                               <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="hitachi" id="filter-hitachi">
-                              <label for="filter-hitachi">hitachi</label>
+                              <label for="filter-hitachi">Hitachi</label>
                           </li>
                       </ul>
                   </fieldset>
                   <fieldset>
-                      <legend>питание:</legend>
+                      <legend>Питание:</legend>
                           <ul>
                               <li class="filter-option">
                                   <input class="visually-hidden filter-input filter-input-radio" type="radio" name="nutrition" value="rechargeable" id="rechargeable" checked>
@@ -134,16 +131,16 @@
         </section>
         <section class="sorting">
             <div class="list">
+                <span class="for-sorting">Сортировка:</span>
                 <ul class="list-reset sort-type">
-                    <li class="for-sorting">сортировка:</li>
-                    <li><a class="for-suction current" href="price.html">по цене</a></li>
-                    <li><a class="for-suction nocurrent" href="type.html">по типу</a></li>
-                    <li><a class="for-suction nocurrent" href="function.html">по функционалу</a></li>
+                    <li><a class="for-suction current" href="price.html">По цене</a></li>
+                    <li><a class="for-suction nocurrent" href="type.html">По типу</a></li>
+                    <li><a class="for-suction nocurrent" href="function.html">По функционалу</a></li>
                 </ul>
             </div>
             <div class="triangle-sorting">
-                <a href="up.html" class="sorting-up visually-hidden">сортировка вверх</a> 
-                <a href="down.html" class="sorting-down visually-hidden">сортировка вниз</a>
+                <a href="up.html" class="sorting-up visually-hidden">Сортировка вверх</a> 
+                <a href="down.html" class="sorting-down visually-hidden">Сортировка вниз</a>
             </div>
         </section>
         <section class="goods">
@@ -287,7 +284,7 @@
             </div>
         </footer>
         <section class="cart">
-            <p class="added">Товар добавлен в корзину!</p>
+            <p class="added" href="#">Товар добавлен в корзину!</p>
             <a class="execution" href="#">Оформить заказ</a>
             <a class="continuation" href="#">Продолжить покупки</a>
         </section>
