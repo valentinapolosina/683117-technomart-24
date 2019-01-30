@@ -14,7 +14,7 @@
     <header class="main-header">
         <div class="top-menu">
           <div class="container">
-              <h2 class="logo"><a class="button button-logo" href="techomart.html">Техномарт</a></h2>
+              <a class="button logo" href="techomart.html">Техномарт</a></h2>
               <form action="https://echo.htmlacademy.ru" class="search-menu" method="post">
                   <button class="button-search" aria-label="найти" type="submit"></button>
                   <label for="search" class="visually-hidden">Поиск</label>
@@ -59,8 +59,7 @@
           </nav>
     </header>
     <main class="inner-main">
-        <section class="menu">
-            <div class="menu-wrapper">
+            <div class="menu">
                 <ul class="breadcrumbs ">
                     <li class="visually-hidden">Главная</li>
                     <li><a class="catalog-menu" href="catalog.html">Каталог</a></li>
@@ -69,7 +68,6 @@
                 </ul>
                 <h3 class="perforators-title">Перфораторы</h3>
             </div>
-        </section>
         <section class="filter-list">
             <p class="filters">Фильтр:</p>
               <form class="filter" method="get" action="https://echo.htmlacademy.ru">
@@ -129,7 +127,7 @@
                   <button type="submit" class="filter-button button">Показать</button>
               </form>
         </section>
-        <section class="sorting">
+        <div class="sorting">
             <div class="list">
                 <span class="for-sorting">Сортировка:</span>
                 <ul class="list-reset sort-type">
@@ -142,7 +140,7 @@
                 <a href="up.html" class="sorting-up visually-hidden">Сортировка вверх</a> 
                 <a href="down.html" class="sorting-down visually-hidden">Сортировка вниз</a>
             </div>
-        </section>
+        </div>
         <section class="goods">
             <ul class="goods-wrapper">
               <li class="bosh-3000">
@@ -245,7 +243,7 @@
             <p class="perforators-slogan">Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель</p>
         </section>
     </main>
-        <footer class="top-footer">
+        <footer class="footer">
           <div class="footer-wrapper">
               <h2 class="footer-logo">Техномарт</h2>
               <address class="footer-adress">г. Санкт-Петербург, ул Б. Конюшенная д. 19/8</address> 
@@ -265,9 +263,8 @@
                   <li>Инструмент</li>
                   <li>Спецпредложения</li>
               </ul>
-          </div>
-        </footer> 
-        <footer class="bottom-footer">
+          </div> 
+          <div class="bottom-footer">
             <p class="right">© 2010–2017 Компания «Техномарт» Все права защищены</p>
             <ul class="social-list">
                 <li><a class="social-button" href="#"><span class="visually-hidden">Вконтакте</span></a></li>
@@ -282,6 +279,7 @@
                 <p class="developed">Разработано</p>
                 <a class="site" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
             </div>
+          </div>
         </footer>
         <section class="cart">
             <p class="added" href="#">Товар добавлен в корзину!</p>
