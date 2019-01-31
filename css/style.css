@@ -521,6 +521,10 @@ input[type="radio"].visually-hidden {
   background-color: #ffffff;
 }
 
+.sorting {
+  background-color: #f7f3ec;
+}
+
 .for-sorting {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
@@ -539,5 +543,55 @@ input[type="radio"].visually-hidden {
   line-height: 18px;
   font-weight: normal;
   text-transform: uppercase;
+  border-bottom-style: dotted;
+  border-bottom-color: #ee3643;
+  border-bottom-width: 1px;
+  color: #000000;
 }
 
+.current {
+  color: #ee3643;
+  border-bottom: none;
+}
+
+.pagination {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: normal;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.pagination-current {
+  color: #ffffff;
+  background-color: #ee3643;
+}
+
+.pagination-nocurrent {
+  color: #000000;
+}
+
+.pagination-next {
+  color: #000000;
+}
+
+.about-perforators{
+  background-color: #f2f6f8;
+}
+
+.couple-of-words {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.perforators-slogan {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: normal;
+}
