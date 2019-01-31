@@ -17,19 +17,13 @@
                 <a class="logo">Техномарт</a>
                 <form action="https://echo.htmlacademy.ru" class="search-menu" method="post">
                     <button class="button-search" aria-label="найти" type="submit"></button>
-                    <label for="search" class="visually-hidden label-search">Поиск</label>
-                    <input type="text" id="search" name="input-searches" value="" placeholder="поиск">
+                    <label for="search" class="visually-hidden">Поиск</label>
+                    <input class="label-search" type="text" id="search" name="input-searches" value="" placeholder="Поиск">
                 </form>
                 <div class="button-top-menu">
-                    <div class="bookmarks">
-                        <a class="button-bookmarks" href="bookmarks.html">Закладки: 0</a>
-                    </div>
-                    <div class="inner-box">
-                        <a class="button-box" href="box.html">Корзина: 10</a>
-                    </div>
-                    <div class="checkout">
-                        <a class="button button-checkout" href="checkout.html">Оформить заказ</a>
-                    </div>
+                    <a class="button button-bookmarks" href="bookmarks.html">Закладки: 0</a>
+                    <a class="button button-box" href="box.html">Корзина: 10</a>
+                    <a class="button button-checkout" href="checkout.html">Оформить заказ</a>
                 </div>
             </div>
         </div>
@@ -46,13 +40,13 @@
         </div>
         <nav class="main-menu">
             <ul class="site-navigation">
-                <li><a>Главная<a>
-                <li><a href="company.html">Компания</a></li>
-                <li><a href="catalog.html">Каталог</a></li>
-                <li><a href="news.html">Новости</a></li>
-                <li><a href="special-offers.html">Спецпредложения</a></li>
-                <li><a href="delivery.html">Доставка</a></li>
-                <li><a href="contacts.html">Контакты</a></li>
+                <li><a class="site-item">Главная<a>
+                <li><a class="site-item" href="company.html">Компания</a></li>
+                <li><a class="site-item" href="catalog.html">Каталог</a></li>
+                <li><a class="site-item" href="news.html">Новости</a></li>
+                <li><a class="site-item" href="special-offers.html">Спецпредложения</a></li>
+                <li><a class="site-item" href="delivery.html">Доставка</a></li>
+                <li><a class="site-item" href="contacts.html">Контакты</a></li>
             </ul>
         </nav>
     </header>
@@ -62,22 +56,22 @@
                 <ul class="list-wrapper">
                   <li class="materials">
                     <p class="list-item">Материалы</p>
-                    <a class="button-list" href="materials.html">На любой вкус</a>
+                    <a class="button-list" href="#">На любой вкус</a>
                 </li>
                 <li class="instruments">
                     <p class="list-item">Инструменты</p>
-                    <a class="button-list" href="instruments.html">На все случаи</a>
+                    <a class="button-list" href="#">На все случаи</a>
                 </li>
               </ul>
                 <ul class="sliders">
                     <li class="drills">
                         <h5 class="slider-name">Дрели</h5>
-                        <p сlass="drills-slogan">Соседям на радость!</p>
+                        <p>Соседям на радость!</p>
                         <a class="catalog button" href="catalog.html">Открыть каталог</a>
                     </li>
                     <li class="slider-perforators">
                         <h5 class="slider-name">Перфораторы</h5>
-                        <p class="perforators-slogan">Настоящие мужские игрушки</p>
+                        <p>Настоящие мужские игрушки</p>
                         <a class="catalog button" href="catalog.html">Открыть каталог</a>
                     </li>
                 </ul>
@@ -85,15 +79,15 @@
             <ul class="wrapper">
                 <li class="equipment">
                     <p class="list-item">Техника</p>
-                    <a class="button-list" href="equipment.html">Для стройки</a>
+                    <a class="button-list" href="#">Для стройки</a>
                 </li>
                 <li class="sale">
                     <p class="list-item">Скидки 50%</p>
-                    <a class="button-list">На 350 товаров</a>
+                    <a class="button-list" href="#">На 350 товаров</a>
                 </li>
                 <li class="delivery">
                     <p class="list-item">Доставка</p>
-                    <a class="button-list">Бесплатно</a>
+                    <a class="button-list" href="#">Бесплатно</a>
                 </li>
             </ul>
         </section>
@@ -105,7 +99,7 @@
             <ul class="catalog-items">
                 <li class="bosh-9000">
                     <div class="actions">
-                        <a href="#" class="button-buy">Купить</a>
+                        <a href="#" class="button button-buy">Купить</a>
                         <a href="#" class="button-bookmark">В закладки</a>
                     </div>
                     <img src="img/perforator-3.png" width="184" height="164" alt="Перфоратор BOSCH BFG 9000">
@@ -115,7 +109,7 @@
                 </li>
                 <li class="bosh-3000">
                     <div class="actions">
-                        <a href="#" class="button-buy">Купить</a>
+                        <a href="#" class="button button-buy">Купить</a>
                         <a href="#" class="button-bookmark">В закладки</a>
                     </div>
                     <img src="img/perforator-1.png" width="127" height="112" alt="Перфоратор BOSCH BFG 3000">
@@ -125,7 +119,7 @@
                 </li>
                 <li class="bosh-6000">
                     <div class="actions">
-                        <a href="#" class="button-buy">Купить</a>
+                        <a href="#" class="button button-buy">Купить</a>
                         <a href="#" class="button-bookmark">В закладки</a>
                     </div>
                     <img src="img/perforator-2.png" width="144" height="128" alt="Перфоратор BOSCH BFG 6000">
@@ -135,7 +129,7 @@
                 </li>
                 <li class="bosh-2000">
                     <div class="actions">
-                        <a href="#" class="button-buy">Купить</a>
+                        <a href="#" class="button button-buy">Купить</a>
                         <a href="#" class="button-bookmark">В закладки</a>
                     </div>
                         <img src="img/perforator-1.png" width="127" height="112" alt="Перфоратор BOSCH BFG 2000">
@@ -207,7 +201,7 @@
                     <li class="autotrading">Автотрейдинг</li>
                     <li class="railways">ЖелДорЭкспедиция</li>
                 </ul>
-                <a class="button-more button" href="company.html">Подробнее о компании</a>
+                <a class="button button-more" href="company.html">Подробнее о компании</a>
             <div class="contacts">
                 <h5 class="contact">Контакты</h5>
                 <p class="contact-slogan slogan">Вы можете забрать товар сами, заехав в наш офис:</p>
@@ -223,7 +217,7 @@
     <footer class="footer">
         <div class="footer-wrapper">
     	    <a class="footer-logo">Техномарт</a>
-    	    <address class="footer-adress">г. Санкт-Петербург, ул Б. Конюшенная д. 19/8</address> 
+    	    <address class="footer-address">г. Санкт-Петербург, ул Б. Конюшенная д. 19/8</address> 
             <a href="tel:+78125550555" class="footer-number">+7(812)555-05-55</a>
         </div>
         <div class="footer-navigation-wrapper">

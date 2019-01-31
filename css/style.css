@@ -6,7 +6,6 @@ body {
   line-height: 18px;
   font-weight: normal;
   background-color: #ffffff;
-  background-repeat: no-repeat;
 }
 
 a {
@@ -41,6 +40,10 @@ input[type="radio"].visually-hidden {
 .button {
   border: none;
   cursor: pointer;
+  color: #ffffff;
+  font-weight: normal;
+  text-transform: uppercase;
+  background-color: #ee3643;
 }
 
 .logo {
@@ -52,10 +55,38 @@ input[type="radio"].visually-hidden {
   text-transform: uppercase;
 }
 
+.label-search {
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: normal;
+}
+
 .button-top-menu {
   font-size: 17px;
   line-height: 18px;
-  color: #ffffff;
+  font-weight: normal;
+}
+
+.button-bookmarks,
+.button-box,
+.button-checkout {
+  text-transform: capitalize;
+}
+
+.login-and-registration {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+.login-link {
+ background-color: #ffffff;
+  color: #000000;
+}
+
+.registration-link {
+ background-color: #ffffff;
+  color: #000000;
 }
 
 .number {
@@ -77,6 +108,8 @@ input[type="radio"].visually-hidden {
   line-height: 24px;
   color: #32425c;
   font-weight: normal;
+  font-style: normal;
+
 }
 
 .login-and-registration {
@@ -92,9 +125,13 @@ input[type="radio"].visually-hidden {
   font-size: 17px;
   line-height: 17px;
   font-weight: normal;
-  color: #ffffff;
   background-color: #32425c;
 }
+
+.site-item {
+  color: #ffffff;
+}
+
 
 .list-items {
   color: #ffffff;
@@ -108,6 +145,8 @@ input[type="radio"].visually-hidden {
 
 .button-list {
   font-weight: normal;
+  text-transform: uppercase;
+  color: #fff;
 }
 
 .catalog {
@@ -143,17 +182,10 @@ input[type="radio"].visually-hidden {
   text-transform: uppercase;
 }
 
-.drills-slogan {
+.sliders p {
   font-size: 18px;
   line-height: 24px;
-  font-weight: normal;
-}
-
-.perforators-slogan {
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: normal;
+  font-weight: normal
 }
 
 .drills {
@@ -212,7 +244,8 @@ input[type="radio"].visually-hidden {
   font-family: "PT Sans", "Arial", sans-serif;
   color: #999999;
   font-size: 17px;
-  font-weight: normal;
+  line-height: 18px;
+  font-weight: bold;
   text-decoration: line-through;
 }
 
@@ -221,7 +254,8 @@ input[type="radio"].visually-hidden {
   background-color: #ee3643;
   color: #ffffff;
   font-size: 17px;
-  font-weight: normal;
+  line-height: 18px;
+  font-weight: bold;
 }
 
 .manufacturers {
@@ -296,18 +330,12 @@ input[type="radio"].visually-hidden {
   font-weight: normal;
 }
 
-.button {
-  font-weight: normal;
-  text-transform: uppercase;
-  background-color: #ee3643;
-}
-
 .button-more {
   font-size: 14px;
   line-height: 18px;
 }
 
-.top-footer {
+.footer {
   background-color: #32425c;
 }
 
@@ -320,10 +348,11 @@ input[type="radio"].visually-hidden {
   text-transform: uppercase;
 }
 
-.footer-adress {
+.footer-address {
   font-size: 18px;
   line-height: 24px;
   font-weight: normal;
+  font-style: normal;
   color: #ffffff;
 }
 
