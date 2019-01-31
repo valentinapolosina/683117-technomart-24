@@ -288,7 +288,7 @@ input[type="radio"].visually-hidden {
 .item-name {
   color: #32425c;
   font-size: 36px;
-  line-height: 36px;
+  line-height: 24px;
   font-weight: normal;
   text-transform: uppercase;
 }
@@ -403,3 +403,135 @@ input[type="radio"].visually-hidden {
   line-height: 18px;
   color: #000000;
 }
+
+.added {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: normal;
+}
+
+.continuation {
+  font-weight: normal;
+  color: #000000;
+  background-color: #ffffff;
+  text-transform: uppercase;
+}
+
+.button-cart {
+  background-color: #f1f1f1;
+}
+
+.user-input {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.send button {
+  background-color: #ee3643;
+  color: #ffffff;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+/***** catalog ***/
+
+.login {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.orders-link,
+.personal-link {
+  font-size: 16px;
+  line-height: 18px;
+  color: #32425c;
+  text-decoration: underline;
+}
+
+.breadcrumbs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.breadcrumbs-menu {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: normal;
+  color: #000000;
+}
+
+.perforators-title {
+  background-color: #f2f6f8;
+  color: #32425c;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: normal;
+}
+
+.filters {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 18px;
+  background-color: #f7f3ec;
+}
+
+.filter legend {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 30px;
+  text-transform: uppercase;
+
+}
+
+.min-price,
+.max-price {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 18px;
+  border: none;
+  background-color: #f7f3ec;
+}
+
+.filter-list ul {
+  list-style: none;
+}
+
+.filter-option {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.filter-button {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.for-sorting {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.sort-type {
+  list-style: none;
+}
+
+.for-suction
+

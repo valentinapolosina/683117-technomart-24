@@ -102,7 +102,7 @@
                         <a href="#" class="button button-buy">Купить</a>
                         <a href="#" class="button-bookmark">В закладки</a>
                     </div>
-                    <img src="img/perforator-3.png" width="184" height="164" alt="Перфоратор BOSCH BFG 9000">
+                    <img src="img/perforator-3.png" width="218" height="170" alt="Перфоратор BOSCH BFG 9000">
                     <h3 class="title">Перфоратор BOSCH BFG 9000</h3>
                     <span class="discount">32 500 Р.</span>
                     <span class="price">25 500 Р.</span>
@@ -112,7 +112,7 @@
                         <a href="#" class="button button-buy">Купить</a>
                         <a href="#" class="button-bookmark">В закладки</a>
                     </div>
-                    <img src="img/perforator-1.png" width="127" height="112" alt="Перфоратор BOSCH BFG 3000">
+                    <img src="img/perforator-1.png" width="218" height="170" alt="Перфоратор BOSCH BFG 3000">
                     <h3 class="title">Перфоратор BOSCH BFG 3000</h3>
                     <span class="discount">22 500 Р.</span>
                     <span class="price">15 500 Р.</span>
@@ -122,7 +122,7 @@
                         <a href="#" class="button button-buy">Купить</a>
                         <a href="#" class="button-bookmark">В закладки</a>
                     </div>
-                    <img src="img/perforator-2.png" width="144" height="128" alt="Перфоратор BOSCH BFG 6000">
+                    <img src="img/perforator-2.png" width="218" height="170" alt="Перфоратор BOSCH BFG 6000">
                     <h3 class="title">Перфоратор BOSCH BFG 6000</h3>
                     <span class="discount">30 500 Р.</span>
                     <span class="price">25 500 Р.</span>
@@ -255,24 +255,28 @@
     <section class="popup">
         <form class="user" method="post" action="https://echo.htmlacademy.ru">
             <p class="your-name user-information">
-                <label for="user-login">Ваше имя</label>
-                <input id="user-login" type="text" name="login" placeholder="имя фамилия">
+                <label for="user-login">Ваше имя:</label>
+                <input id="user-login"class="user-input" type="text" name="login" placeholder="Имя Фамилия">
             </p>
             <p class="your-email user-information">
-                <label for="user-email">Ваш e-mail</label>
-                <input id="user-email" type="email" name="email" placeholder="email@example.com">
+                <label for="user-email">Ваш e-mail:</label>
+                <input id="user-email" type="email" name="email" class="user-input" placeholder="email@example.com">
             </p>
             <p class="your-letter user-information">
                 <span for="user-letter">Текст письма:</span>
-                <textarea name="text-letter" placeholder="В свободной форме"></textarea>
+                <textarea name="text-letter" class="user-input" placeholder="В свободной форме"></textarea>
             </p>
-            <button сlass="button button-send" type="submit">Отправить</button>
+            <div class="send">
+                <button сlass="button button-send" type="submit">Отправить</button>
+            </div>
         </form>
     </section>
     <section class="cart">
             <p class="added" href="#">Товар добавлен в корзину!</p>
-            <a class="execution" href="#">Оформить заказ</a>
-            <a class="continuation" href="#">Продолжить покупки</a>
+            <div class="button-cart">
+                <a class="execution button" href="#">Оформить заказ</a>
+                <a class="continuation" href="#">Продолжить покупки</a>
+            </div>
     </section>
 </body>
 </html>
