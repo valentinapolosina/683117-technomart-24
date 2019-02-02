@@ -429,6 +429,21 @@ input[type="radio"].visually-hidden {
   background-color: #32425c; 
 }
 
+.item-block:hover,
+.item-block:focus {
+  background-color: #293449;
+}
+
+.item-block:active {
+  color: #32425c;
+  background-color: #ffffff;
+}
+
+.active-block {
+  color: #32425c;
+  background-color: #ffffff;
+}
+
 .item-name {
   color: #32425c;
   font-size: 36px;
@@ -525,6 +540,34 @@ input[type="radio"].visually-hidden {
   color: #ffda96;
 }
 
+.footer-navigation a {
+  color: #ffffff;
+}
+
+.footer-catalog a {
+  color: #ffd180;
+}
+
+.footer-navigation a:hover,
+.footer-navigation a:focus {
+  border-bottom: 1px solid #ffffff;
+}
+
+.footer-navigation a:active {
+  opacity: 0.5;
+  border-bottom: none;
+}
+
+.footer-catalog a:hover,
+.footer-catalog a:focus {
+  border-bottom: 1px solid #ffd180;
+}
+
+.footer-catalog a:active {
+  opacity: 0.5;
+  border-bottom: none;
+}
+
 .bottom-footer {
   background-color: #293449;
   font-size: 16px;
@@ -539,6 +582,19 @@ input[type="radio"].visually-hidden {
 
 .email {
   color: #ffd180;
+}
+
+.site:focus,
+.site:hover,
+.email:focus,
+.email:hover {
+  border-bottom: 1px solid #ffd180;
+}
+
+.site:active,
+.email:active {
+  color: #ee3643;
+  border-bottom: none;
 }
 
 .user-information {
