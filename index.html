@@ -18,7 +18,7 @@
                 <form action="https://echo.htmlacademy.ru" class="search-menu" method="post">
                     <button class="button-search" aria-label="найти" type="submit"></button>
                     <label for="search" class="visually-hidden">Поиск</label>
-                    <input class="label-search" type="text" id="search" name="input-searches" value="" placeholder="Поиск">
+                    <input class="label-search" type="text" id="search" name="input-searches" value="" placeholder="Поиск:">
                 </form>
                 <div class="button-top-menu">
                     <a class="button button-bookmarks" href="bookmarks.html">Закладки: 0</a>
@@ -40,7 +40,7 @@
         </div>
         <nav class="main-menu">
             <ul class="site-navigation">
-                <li><a class="site-item">Главная<a>
+                <li><a class="site-item">Главная</a></li>
                 <li><a class="site-item" href="company.html">Компания</a></li>
                 <li><a class="site-item" href="catalog.html">Каталог</a></li>
                 <li><a class="site-item" href="news.html">Новости</a></li>
@@ -191,7 +191,7 @@
         </section>
         <section class="company-contacts">
             <h4 class="visually-hidden">О компании и адрес</h4>
-            <div class="company">
+            <div class="company-main">
                 <h5 class="company-techomart">Компания «Техномарт»</h5>
                 <p class="company-slogan slogan">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах</p>
                 <p class="company-delivery slogan">Мы можем доставить ваш товар в самые удаленные точки России! Техномарт работает со многими транспортными компаниями:</p>
@@ -205,9 +205,9 @@
             <div class="contacts">
                 <h5 class="contact">Контакты</h5>
                 <p class="contact-slogan slogan">Вы можете забрать товар сами, заехав в наш офис:</p>
-                <div class="map"><a href="#"><img src="img/big-map.png" width="970" height="176" alt="г. Санкт-Петербург, ул Б. Конюшенная д. 19/8"></a></div>
+                <div class="map"><a href="#"><img src="img/big-map.png" width="970" height="476" alt="г. Санкт-Петербург, ул Б. Конюшенная д. 19/8"></a></div>
                 <div class="map-popup">
-                    <img src="" width="" height="">
+                    <img src="img/big-map.png" width="970" height="476" alt="г. Санкт-Петербург, ул Б. Конюшенная д. 19/8">
                     <button type="button" name="close" class="button-close"><span class="visually-hidden">Закрыть карту</span></button>
                 </div>
                 <a class="button-letter button" href="#">Заблудились? Напишите нам</a>
@@ -236,7 +236,7 @@
             </ul>
         </div> 
             <div class="bottom-footer">
-    	        <p class="right">© 2010–2017 Компания «Техномарт» Все права защищены</p>
+    	        <p class="right">© 2010–2019 Компания «Техномарт» Все права защищены</p>
     	        <ul class="social-list">
     		        <li><a class="social-button" href="#"><span class="visually-hidden">Вконтакте</span></a></li>
     		        <li><a class="social-button" href="#"><span class="visually-hidden">Фейсбук</span></a></li>
@@ -256,23 +256,23 @@
         <form class="user" method="post" action="https://echo.htmlacademy.ru">
             <p class="your-name user-information">
                 <label for="user-login">Ваше имя:</label>
-                <input id="user-login"class="user-input" type="text" name="login" placeholder="Имя Фамилия">
+                <input id="user-login" class="user-input" type="text" name="login" placeholder="Имя Фамилия">
             </p>
             <p class="your-email user-information">
                 <label for="user-email">Ваш e-mail:</label>
                 <input id="user-email" type="email" name="email" class="user-input" placeholder="email@example.com">
             </p>
             <p class="your-letter user-information">
-                <span for="user-letter">Текст письма:</span>
+                <span class="user-letter">Текст письма:</span>
                 <textarea name="text-letter" class="user-input" placeholder="В свободной форме"></textarea>
             </p>
             <div class="send">
-                <button сlass="button button-send" type="submit">Отправить</button>
+                <button class="button button-send" type="submit">Отправить</button>
             </div>
         </form>
     </section>
     <section class="cart">
-            <p class="added" href="#">Товар добавлен в корзину!</p>
+            <p class="added">Товар добавлен в корзину!</p>
             <div class="button-cart">
                 <a class="execution button" href="#">Оформить заказ</a>
                 <a class="continuation" href="#">Продолжить покупки</a>

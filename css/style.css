@@ -53,12 +53,41 @@ input[type="radio"].visually-hidden {
   font-weight: normal;
   background-color: #ee3643;  
   text-transform: uppercase;
+  box-shadow: 0 5px 0 0 #b52933;
+}
+
+.logo:hover,
+.logo:focus {
+  background-color: #ca2c37;
+}
+
+.logo:active {
+  background-color: #ba2732;
 }
 
 .label-search {
   font-size: 17px;
   line-height: 18px;
   font-weight: normal;
+  border: none;
+  background-color: #293449;
+}
+
+.label-search::placeholder {
+  color:  #ffffff;
+}
+
+.label-search:hover, {
+  background-color: #212a3a;
+}
+
+.label-search:active,
+.label-search:focus {
+  background-color: #ffffff;
+}
+
+.label-search::placeholder:active {
+  color: #000000;
 }
 
 .button-top-menu {
@@ -73,6 +102,18 @@ input[type="radio"].visually-hidden {
   text-transform: capitalize;
 }
 
+.button-bookmarks:hover,
+.button-box:hover,
+.button-bookmarks:focus,
+.button-box:focus {
+  background: #212a3a;
+}
+
+.button-bookmarks:active,
+.button-box:active {
+  background: #161d29;
+}
+
 .login-and-registration {
   font-size: 21px;
   line-height: 21px;
@@ -84,9 +125,40 @@ input[type="radio"].visually-hidden {
   color: #000000;
 }
 
+.login-link:hover,
+.login-link:focus {
+    color: #ee3643;
+}
+
+.login-link:active {
+    color: rgb(0, 0, 0, 0.3);
+}
+
 .registration-link {
  background-color: #ffffff;
   color: #000000;
+}
+
+.registration-link:hover,
+.registration-link:focus {
+    color: #ee3643;
+}
+
+.registration-link:active {
+    color: rgb(0, 0, 0, 0.3);
+}
+
+.button-checkout:hover,
+.button-checkout:focus {
+    background: #5fbb2d;
+}
+
+.button-checkout:active {
+    background: #518534;
+}
+
+.button-checkout {
+  background-color: #63a63e;
 }
 
 .number {
@@ -126,10 +198,21 @@ input[type="radio"].visually-hidden {
   line-height: 17px;
   font-weight: normal;
   background-color: #32425c;
+  box-shadow: 0px 5px 0px 0px rgba(41, 52, 73, 1);
 }
 
 .site-item {
   color: #ffffff;
+}
+
+.site-item:hover,
+.site-item:focus {
+  background-color: #293449;
+}
+
+.site-item:active {
+  background-color: #1d2739;
+  color: rgb(255, 255, 255, 0.5);
 }
 
 
@@ -231,6 +314,8 @@ input[type="radio"].visually-hidden {
   color: #32425c;
   text-transform: uppercase;
   font-weight: normal;
+  border: 2px solid #63a63e;  
+  border-radius: 2px;
 }
 
 .title {
@@ -432,6 +517,7 @@ input[type="radio"].visually-hidden {
   color: #ffffff;
   font-weight: normal;
   text-transform: uppercase;
+  border: none;
 }
 
 /***** catalog ***/
@@ -442,12 +528,28 @@ input[type="radio"].visually-hidden {
   color: #000000;
 }
 
+.login:active {
+  color: rgb(0, 0, 0, 0.3);
+}
+
 .orders-link,
 .personal-link {
   font-size: 16px;
   line-height: 18px;
   color: #32425c;
   text-decoration: underline;
+}
+
+.orders-link:focus,
+.orders-link:hover,
+.personal-link:focus,
+.personal-link:hover {
+  color: #ee3643; 
+}
+
+.orders-link:active,
+.personal-link:active {
+  color: rgb(0, 0, 0, 0.3);
 }
 
 .breadcrumbs {
@@ -462,6 +564,7 @@ input[type="radio"].visually-hidden {
   line-height: 18px;
   font-weight: normal;
   color: #000000;
+  text-transform: uppercase; 
 }
 
 .perforators-title {
@@ -519,6 +622,8 @@ input[type="radio"].visually-hidden {
   text-transform: uppercase;
   color: #000000;
   background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+
 }
 
 .sorting {
