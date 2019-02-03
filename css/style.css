@@ -58,6 +58,8 @@ input[type="radio"].visually-hidden {
 .container {
   display: flex;
   align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .logo {
