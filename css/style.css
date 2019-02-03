@@ -97,6 +97,7 @@ input[type="radio"].visually-hidden {
   font-weight: normal;
   border: none;
   background-color: #293449;
+
 }
 
 .label-search::placeholder {
@@ -229,6 +230,7 @@ input[type="radio"].visually-hidden {
   font-size: 21px;
   line-height: 21px;
   color: #ee3643;
+  background: url("../img/icon-phone.svg") no-repeat;
 }
 
 .store {
