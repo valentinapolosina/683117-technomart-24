@@ -117,7 +117,7 @@ input[type="radio"].visually-hidden {
 }
 
 .button-bookmarks,
-.button-box {
+.button-box-inner {
   background-color: #293449;
   color: #fff;
 }
@@ -130,13 +130,16 @@ input[type="radio"].visually-hidden {
 
 .button-bookmarks:hover,
 .button-box:hover,
+.button-box-inner:hover,
+.button-box-inner:focus,
 .button-bookmarks:focus,
 .button-box:focus {
   background: #212a3a;
 }
 
 .button-bookmarks:active,
-.button-box:active {
+.button-box:active,
+.button-box-inner:active {
   background: #161d29;
   opacity: 0.5;
 }
