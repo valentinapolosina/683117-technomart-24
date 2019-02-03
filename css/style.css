@@ -55,6 +55,11 @@ input[type="radio"].visually-hidden {
   background-color: #ba2732;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   font-size: 24px;
   line-height: 24px;
