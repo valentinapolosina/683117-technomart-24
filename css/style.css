@@ -111,6 +111,12 @@ input[type="radio"].visually-hidden {
 }
 
 .button-bookmarks,
+.button-box {
+  background-color: #293449;
+  color: #fff;
+}
+
+.button-bookmarks,
 .button-box,
 .button-checkout {
   text-transform: capitalize;
@@ -126,6 +132,7 @@ input[type="radio"].visually-hidden {
 .button-bookmarks:active,
 .button-box:active {
   background: #161d29;
+  opacity: 0.5;
 }
 
 .login-and-registration {
@@ -135,40 +142,41 @@ input[type="radio"].visually-hidden {
 }
 
 .login-link {
- background-color: #ffffff;
+  background-color: #ffffff;
   color: #000000;
 }
 
 .login-link:hover,
 .login-link:focus {
-    color: #ee3643;
+  color: #ee3643;
 }
 
 .login-link:active {
-    color: rgb(0, 0, 0, 0.3);
+  color: rgb(0, 0, 0, 0.3);
 }
 
 .registration-link {
- background-color: #ffffff;
+  background-color: #ffffff;
   color: #000000;
 }
 
 .registration-link:hover,
 .registration-link:focus {
-    color: #ee3643;
+  color: #ee3643;
 }
 
 .registration-link:active {
-    color: rgb(0, 0, 0, 0.3);
+  color: rgb(0, 0, 0, 0.3);
 }
 
 .button-checkout:hover,
 .button-checkout:focus {
-    background: #5fbb2d;
+  background: #5fbb2d;
 }
 
 .button-checkout:active {
-    background: #518534;
+  background: #518534;
+  opacity: 0.5;
 }
 
 .button-checkout {
