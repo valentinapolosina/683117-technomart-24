@@ -85,6 +85,12 @@ input[type="radio"].visually-hidden {
   background-color: #ba2732;
 }
 
+.button-search {
+  border: none;
+  outline: none;
+  background-color: #293449;
+}
+
 .label-search {
   font-size: 17px;
   line-height: 18px;
