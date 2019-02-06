@@ -275,9 +275,8 @@ input[type="radio"].visually-hidden {
   padding-right: 5px;
   padding-bottom: 7px;
   padding-left: 69px;
-  background-position: left;
+  background-position: 7px;
   position: relative;
-
 
 }
 
@@ -294,6 +293,8 @@ input[type="radio"].visually-hidden {
   color: #ee3643;
   font-style: italic;
   font-weight: normal;
+  width: 183px;
+  box-sizing: border-box;
 }
 
 .address {
@@ -302,7 +303,10 @@ input[type="radio"].visually-hidden {
   color: #32425c;
   font-weight: normal;
   font-style: normal;
+}
 
+.link-image {
+  padding-right: 5px;
 }
 
 .login-and-registration {
@@ -310,6 +314,10 @@ input[type="radio"].visually-hidden {
   line-height: 21px;
   font-weight: normal;
   color: #000000;
+}
+
+.main-menu {
+  background-color: #f3f7f9;
 }
 
 .site-navigation {
