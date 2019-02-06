@@ -192,6 +192,8 @@ input[type="radio"].visually-hidden {
   font-size: 21px;
   line-height: 21px;
   font-weight: normal;
+  display: flex;
+  padding-bottom: 26px;
 }
 
 .login-link {
@@ -262,6 +264,7 @@ input[type="radio"].visually-hidden {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-right: 30px;
 }
 
 .number {
@@ -285,6 +288,8 @@ input[type="radio"].visually-hidden {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .store {
@@ -295,6 +300,7 @@ input[type="radio"].visually-hidden {
   font-weight: normal;
   width: 183px;
   box-sizing: border-box;
+  margin-right: 60px;
 }
 
 .address {
@@ -315,10 +321,17 @@ input[type="radio"].visually-hidden {
   line-height: 21px;
   font-weight: normal;
   color: #000000;
+  margin-left: 40px
 }
 
 .main-menu {
   background-color: #f3f7f9;
+  min-height: 110px;
+}
+
+.menu-wrapper {
+  display: flex;
+  justify-content: center;
 }
 
 .site-navigation {
