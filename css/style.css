@@ -248,8 +248,8 @@ input[type="radio"].visually-hidden {
 }
 
 .label-search:active ~ .magnifier {
- color: #ee3643;
- background-color: #ffffff;
+ fill: #ee3643;
+ background-fill: #ffffff;
 }
 
 .middle-menu {
@@ -303,6 +303,7 @@ input[type="radio"].visually-hidden {
   color: #32425c;
   font-weight: normal;
   font-style: normal;
+  background: url("../img/invalid-name.svg") no-repeat; 
 }
 
 .link-image {
