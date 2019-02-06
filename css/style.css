@@ -197,6 +197,12 @@ input[type="radio"].visually-hidden {
 .login-link {
   background-color: #ffffff;
   color: #000000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 15px;
+  margin-right: 10px;
 }
 
 .login-link:hover,
@@ -211,6 +217,11 @@ input[type="radio"].visually-hidden {
 .registration-link {
   background-color: #ffffff;
   color: #000000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 15px;
 }
 
 .registration-link:hover,
@@ -264,6 +275,8 @@ input[type="radio"].visually-hidden {
   padding-right: 5px;
   padding-bottom: 7px;
   padding-left: 69px;
+  background-position: left;
+  position: relative;
 
 
 }
