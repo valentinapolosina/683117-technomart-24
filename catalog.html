@@ -13,7 +13,7 @@
   <body class="inner-page">
     <header class="main-header">
         <div class="top-menu">
-          <div class="container">
+          <div class="wrapper-header">
               <a class="button logo" href="index.html">Техномарт</a>
               <form action="https://echo.htmlacademy.ru" class="search-menu" method="post">
                   <label for="search" class="visually-hidden">Поиск</label>
@@ -29,7 +29,7 @@
           </div>
         </div>
          <div class="middle-menu">
-          <div class="wrapper-for-width">
+          <div class="wrapper-middle-menu container">
             <p class="store">Интернет-магазин строительных материалов и инструментов для ремонта</p>
             <div class="contact-header">
                 <a href="tel:+78125550555" class="number">+7(812)555-05-55</a>
@@ -58,16 +58,17 @@
           </nav>
     </header>
     <main class="inner-main">
-            <div class="menu">
-                <ul class="breadcrumbs ">
+            <div class="menu container">
+                <ul class="breadcrumbs">
                     <li class="visually-hidden">Главная</li>
                     <li><a class="breadcrumbs-menu" href="catalog.html">Каталог</a></li>
                     <li><a class="breadcrumbs-menu" href="instruments.html">Инструмент</a></li>
                     <li><a class="breadcrumbs-menu" href="perforators.html">Перфораторы</a></li>
                 </ul>
-                <h3 class="perforators-title">Перфораторы</h3>
+                <h3 class="perforators-title container">Перфораторы</h3>
             </div>
-        <section class="filter-list">
+        <div class="filter-list container">
+          <div class="filter-wrapper">
             <p class="filters">Фильтр:</p>
               <form class="filter" method="get" action="https://echo.htmlacademy.ru">
                   <fieldset>
@@ -125,7 +126,7 @@
                   </fieldset>
                   <button type="submit" class="filter-button">Показать</button>
               </form>
-        </section>
+        </div>
         <div class="sorting">
             <div class="list">
                 <span class="for-sorting">Сортировка:</span>
@@ -139,8 +140,7 @@
                 <a href="up.html" class="sorting-up"><span class="visually-hidden">Сортировка по возрастанию</span></a> 
                 <a href="down.html" class="sorting-down"><span class="visually-hidden">Сортировка по убыванию</span></a>
             </div>
-        </div>
-        <section class="goods">
+        <div class="goods">
             <ul class="goods-wrapper">
               <li class="bosh">
                   <div class="actions">
@@ -235,11 +235,16 @@
               <li><a class="pagination-item pagination-nocurrent" href="#">2</a></li>
               <li><a class="pagination-item pagination-nocurrent" href="#">3</a></li>
               <li><a class="pagination-item pagination-next" href="#">Cледующая</a></li>
-          </ul> 
-        </section>
+          </ul>
+          </div>
+          </div> 
+        </div>
+      </div>
         <section class="about-perforators">
+          <div class="container perforators-wrapper">
             <h2 class="couple-of-words">Пара слов о перфораторах</h2>
-            <p class="perforators-slogan">Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель</p>
+            <p class="perforators-slogan">Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне. &nbsp; Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В &nbsp; ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель</p>
+          </div>
         </section>
     </main>
         <footer class="footer">
