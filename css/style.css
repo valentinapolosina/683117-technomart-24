@@ -264,6 +264,8 @@ input[type="radio"].visually-hidden {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .contact-header {
@@ -299,6 +301,8 @@ input[type="radio"].visually-hidden {
 
 .container {
   width: 960px;
+  margin: 0 auto;
+
 }
 
 .store {
@@ -426,11 +430,34 @@ input[type="radio"].visually-hidden {
   width: 300px;
 }
 
+.slider-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0; 
+}
+
+.list-wrapper {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.list-items {
+  display: flex;
+}
+
 .materials {
   background-color: #ffbf47;
   background-image: url(../img/icon-1.svg);
   background-repeat: no-repeat;
   background-position: 200px;
+  margin-right: 20px;
 
 }
 
@@ -446,6 +473,7 @@ input[type="radio"].visually-hidden {
   background-image: url(../img/icon-3.svg);
   background-repeat: no-repeat;
   background-position: 200px;
+  margin-bottom: 20px;
 }
 
 .sale {
@@ -453,6 +481,7 @@ input[type="radio"].visually-hidden {
   background-image: url(../img/icon-4.svg);
   background-repeat: no-repeat;
   background-position: 200px;
+  margin-bottom: 20px;
 }
 
 .delivery {
@@ -477,6 +506,13 @@ input[type="radio"].visually-hidden {
   font-weight: normal
 }
 
+.sliders {
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+
+
 .drills {
   background-image: url("../img/drills-man.jpg");
   background-repeat: no-repeat;
@@ -493,6 +529,7 @@ input[type="radio"].visually-hidden {
 .slider-perforators {
   background-image: url("../img/perforator-man.jpg");
   background-repeat: no-repeat;
+  display: none;
 }
 
 .catalog {
@@ -699,6 +736,11 @@ input[type="radio"].visually-hidden {
   background-color: #ee3643;
   color: #ffffff;
   text-transform: uppercase;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  box-shadow: 0 5px 0 #b52933;
+  padding-bottom: 15px;
 }
 
 .footer-address {
@@ -707,7 +749,7 @@ input[type="radio"].visually-hidden {
   font-weight: normal;
   font-style: normal;
   color: #ffffff;
-  margin-top: 10px;
+  margin-top: 50px;
 }
 
 .footer-number {
@@ -730,22 +772,39 @@ input[type="radio"].visually-hidden {
   display: flex;
   flex-direction: column;
   list-style: none;
+  min-width: 50%;
+  margin-bottom: 40px
+}
+
+.footer-wrapper {
+  min-width: 50%;
+  padding-bottom: 37px;
+}
+
+.wrapper-top-footer {
+  display: flex;
+  flex-direction: row;
+  min-height: 200px;
+  align-items: center;
 }
 
 .footer-catalog {
   margin: 0;
   padding: 0;
   color: #ffda96;
+  margin-top: 10px;
 }
 
 .footer-navigation {
   display: flex;
   justify-content: flex-end;
   list-style: none;
+  margin-bottom: 20px;
 }
 
 .footer-navigation li {
-  margin-right: 10px;
+  padding-left: 10px;
+  margin-right: 40px;
 }
 
 .footer-navigation a {
@@ -783,7 +842,8 @@ input[type="radio"].visually-hidden {
 }
 
 .footer-catalog li {
-  margin-right: 10px;
+  padding-left: 10px;
+  margin-right: 40px;
 }
 
 
@@ -793,6 +853,13 @@ input[type="radio"].visually-hidden {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
+  padding-left: 0px;
+  padding-right: 40px;
+}
+
+.social-list {
+  margin-right: 10px;
 }
 
 .vk {
@@ -811,6 +878,8 @@ input[type="radio"].visually-hidden {
   width: 32.33333%;
   display: flex;
   justify-content: space-evenly;
+  padding-bottom: 20px;
+  box-sizing: border-box;
 }
 
 .bottom-footer {
@@ -825,10 +894,22 @@ input[type="radio"].visually-hidden {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.feedback {
+  margin-bottom: 0;
+}
+
+.developed {
+  margin-bottom: 0;
 }
 
 .right {
   width: 32.33333%;
+  box-sizing: border-box;
+  padding-right: 70px;
 }
 
 .site {
@@ -857,6 +938,9 @@ input[type="radio"].visually-hidden {
   font-weight: normal;
   line-height: 18px;
   color: #000000;
+  display: flex;
+  flex-direction: column;
+  padding-right: 14px;
 }
 
 .added {
@@ -914,6 +998,17 @@ input[type="radio"].visually-hidden {
   margin-bottom: 10px;
   padding-top: 5px;
   padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.popup-wrapper {
+  display: flex;
+  min-width: 460px;
+  margin-top: 20px;
+}
+
+.user-popup {
+  padding-bottom: 10px;
 }
 
 .send button {
@@ -922,6 +1017,16 @@ input[type="radio"].visually-hidden {
   font-weight: normal;
   text-transform: uppercase;
   border: none;
+  min-width: 460px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.send {
+  margin-top: 30px;
+  padding: 40px 80px;
+  background-color: #f4f4f4;
 }
 
 .popup {
@@ -940,6 +1045,11 @@ input[type="radio"].visually-hidden {
   line-height: 18px;
   font-weight: 400;
   color: #a9a9a9;
+  min-height: 420px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .letter {

@@ -56,7 +56,7 @@
         </nav>
     </header>
     <main class="main">
-        <section class="list-items">
+        <section class="list-items container">
             <div class="slider-wrapper">
                 <ul class="list-wrapper">
                   <li class="materials wrapper-for-item">
@@ -97,7 +97,7 @@
             </ul>
         </section>
         <section class="good-and-catalog">
-            <div class="popular-manufacturers">
+            <div class="popular-manufacturers container">
                 <h2 class="popular">Популярные товары:</h2>
                 <a class="button button-popular">Все популярные товары</a>
             </div>
@@ -216,15 +216,15 @@
         </section> 
     </main>
     <footer class="footer">
+        <div class="wrapper-top-footer container">
         <div class="footer-wrapper">
             <div class="container">
     	    <a class="footer-logo">Техномарт</a>
     	    <address class="footer-address">г. Санкт-Петербург, ул Б. Конюшенная д. 19/8</address> 
-            <a href="tel:+78125550555" class="footer-number">+7(812)555-05-55</a>
-        </div>
+            <a href="tel:+78125550555" class="footer-number">+7 (812) 555-05-55</a>
+            </div>
         </div>
         <div class="footer-navigation-wrapper">
-            <div class="container">
             <ul class="footer-navigation">
         	    <li><a href="#">Компания</a></li>
         	    <li><a href="#">Новости</a></li>
@@ -238,8 +238,8 @@
         	    <li><a href="#">Инструмент</a></li>
         	    <li><a href="#">Спецпредложения</a></li>
             </ul>
-        </div>
         </div> 
+    </div>
             <div class="bottom-footer">
                 <div class="container wrapper-bottom-footer">
     	        <p class="right">© 2010–2019 Компания «Техномарт» Все права защищены</p>
@@ -254,7 +254,7 @@
     	            <a class="email" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
     	        </div>
     	        <div class="wrapper-site">
-    	            <p class="developed">Разработано</p>
+    	            <p class="developed">Разработано -</p>
                     <a class="site" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
     	        </div>
             </div>
@@ -263,16 +263,18 @@
     </footer>
     <section class="popup">
         <form class="user" method="post" action="https://echo.htmlacademy.ru">
+            <div class="popup-wrapper">
             <p class="your-name user-information">
-                <label for="user-login">Ваше имя:</label>
+                <label for="user-login user-popup">Ваше имя:</label>
                 <input id="user-login" class="user-input" type="text" name="login" placeholder="Имя Фамилия">
             </p>
             <p class="your-email user-information">
-                <label for="user-email">Ваш e-mail:</label>
+                <label for="user-email user-popup">Ваш e-mail:</label>
                 <input id="user-email" type="email" name="email" class="user-input" placeholder="email@example.com">
             </p>
+        </div>
             <p class="your-letter user-information">
-                <span class="user-letter">Текст письма:</span>
+                <span class="user-letter user-popup">Текст письма:</span>
                 <textarea name="text-letter" class="user-input letter" placeholder="В свободной форме"></textarea>
             </p>
             <div class="send">
