@@ -607,6 +607,22 @@ input[type="radio"].visually-hidden {
   width: 220px;
   position: relative;
   text-align: center;
+  align-items: center;
+}
+
+.house {
+position: relative;
+}
+
+.house:before {
+content: "";
+height: 0;
+width: 0;
+border: 13px solid transparent;
+border-left: 20px solid #ee3643;
+position: absolute;
+right: -33px;
+top: 0px;
 }
 
 .button-buy {
