@@ -578,10 +578,6 @@ input[type="radio"].visually-hidden {
   margin-top: 30px;
 }
 
-.bosh:hover .actions {
-    display: block;
-}
-
 .bosh:hover {
     box-shadow: 0 10px 25px rgb(171, 175, 184);
 }
@@ -590,14 +586,33 @@ input[type="radio"].visually-hidden {
   align-items: center;
   position: absolute;
   min-width: 210px;
-  display: flex;
-  flex-direction: column;
   padding-top: 45px;
-  background-color: rgba(255, 255, 255, 0.9);
+  top:0;
+  left:0;
+  width:218px;
+  height:88px;
+  padding:40px 0;
+  background-color:rgba(255,255,255,0.9);
+  z-index:10;
 }
 
-.bosh ~ .actions {
-  display: none;
+.actions {
+  display:none;
+}
+
+.bosh:hover .actions{
+  display:block;
+}
+
+.button-bookmark {
+  color:#32425c;
+  background:white;
+  border-bottom-color:#63a63e;
+  display:block;
+  width:129px;
+  margin:0 auto;
+  margin-bottom:7px;
+  padding:7px 0;
 }
 
 .bosh {
@@ -610,19 +625,10 @@ input[type="radio"].visually-hidden {
   align-items: center;
 }
 
-.house {
-position: relative;
-}
-
-.house:before {
-content: "";
-height: 0;
-width: 0;
-border: 13px solid transparent;
-border-left: 20px solid #ee3643;
-position: absolute;
-right: -33px;
-top: 0px;
+.goods-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .button-buy {
@@ -630,6 +636,11 @@ top: 0px;
   background-color: #63a63e;
   text-transform: uppercase;
   box-shadow: 0px 3px 0px 0px rgba(54, 115, 21, 1); 
+  display:block;
+  width:129px;
+  margin:0 auto;
+  margin-bottom:7px;
+  padding:7px 0;
 }
 
 .button-buy:focus,
@@ -682,6 +693,40 @@ top: 0px;
   font-size: 17px;
   line-height: 18px;
   font-weight: bold;
+  position:relative;
+  width:80px;
+  margin:10px auto;
+  margin-bottom:20px;
+  padding:10px 30px;
+  color:white;
+  background:#ee3643;
+  border-radius:3px;
+}
+
+.price:after{
+    content:"";
+    position:absolute;
+    top:0;
+    right:-20px;
+    width:0;
+    height:0;
+    border:20px solid white;
+    border-left-color:#ee3643;
+}
+
+.title{
+    min-height:40px;
+    padding:0 25px;
+    margin-top:10px;
+    margin-bottom:15px;    
+}
+
+.discount{
+    min-height:20px;
+    margin-top:15px;
+    margin-bottom:10px;
+    color:#999;
+    text-decoration:line-through;
 }
 
 .manufactures {
