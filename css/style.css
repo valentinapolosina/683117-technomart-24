@@ -629,6 +629,8 @@ input[type="radio"].visually-hidden {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
 }
 
 .button-buy {
@@ -1447,6 +1449,14 @@ input[type="radio"].visually-hidden {
   margin: 0;
   padding: 0;
   text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.pagination li {
+  margin-right: 5px;
 }
 
 .pagination-current {
@@ -1462,6 +1472,15 @@ input[type="radio"].visually-hidden {
 .pagination-next {
   color: #000000;
   border: 1px solid #e5e5e5;
+}
+
+.pagination-item {
+  padding: 5px 10px 5px 10px;
+  border-radius: 2px;
+}
+
+.pagination-next {
+  padding: 5px 15px 5px 15px;
 }
 
 .pagination-item:focus,
