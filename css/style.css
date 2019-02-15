@@ -768,6 +768,7 @@ input[type="radio"].visually-hidden {
 
 .service-wrap {
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .slogan-service {
@@ -807,6 +808,47 @@ input[type="radio"].visually-hidden {
   flex-direction: column;
 }
 
+.service-block-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+
+
+.slogan-delivery-item::after {
+  content: "";
+  position: absolute;
+  background: url("../img/delivery.png") no-repeat;
+  width: 470px;
+  height: 261px;
+  top: -37px;
+  left: 153px;
+}
+
+.slogan-warranty-item::after {
+  content: "";
+  position: absolute;
+  background: url("../img/guarantee.png") no-repeat;
+  width: 385px;
+  height: 283px;
+  top: -62px;
+  right: -48px;
+}
+
+.slogan-credit-name::after {
+  content: "";
+  position: absolute;
+  background: url("../img/credit.png") no-repeat;
+  width: 470px;
+  height: 255px;
+  top: -21px;
+  right: -12px;
+}
+
+.slogan-warranty-item {
+  width: 380px;
+}
+
 .service-block li {
   min-height: 60px;
 }
@@ -820,12 +862,32 @@ input[type="radio"].visually-hidden {
   cursor: pointer;
 }
 
+.warranty-item, 
+.credit-item {
+  display: none;
+}
+
+.credit-item {
+  margin-top: 6px;
+}
+
+.credit {
+  margin-bottom: 40px;
+}
+
+.slogan-credit-name {
+  width: 279px;
+  margin-bottom: 30px;
+}
+
 .delivery-item,
 .warranty-item,
 .credit-item {
   position: relative;
   padding: 0;
   margin: 0;
+  width: 620px;
+  margin-left: 80px;
 } 
 
 
@@ -850,6 +912,12 @@ input[type="radio"].visually-hidden {
   line-height: 24px;
   font-weight: normal;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.slogan-delivery-item {
+  width: 275px;
 }
 
 .send-request {
@@ -857,6 +925,10 @@ input[type="radio"].visually-hidden {
   background-color: #ff5357;
   font-weight: normal;
   text-transform: uppercase;
+  display: block;
+  text-align: center;
+  width: 140px;
+
 }
 
 .company-techomart {
@@ -880,6 +952,7 @@ input[type="radio"].visually-hidden {
   flex-direction: row;
   align-items: center;
   min-height: 540px;
+  justify-content: space-between;
 }
 
 .contact {
@@ -890,6 +963,7 @@ input[type="radio"].visually-hidden {
   display: flex;
   flex-direction: column;
   align-items: baseline;
+  width: 540px;
 }
 
 .company-techomart {
