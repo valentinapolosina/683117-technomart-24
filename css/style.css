@@ -120,7 +120,7 @@ input[type="radio"].visually-hidden {
   color:  #ffffff;
 }
 
-.label-search:hover, {
+.label-search:hover {
   background-color: #212a3a;
 }
 
@@ -259,7 +259,7 @@ input[type="radio"].visually-hidden {
 
 .label-search:active ~ .magnifier {
  color: #f04955;
- background-color: #white;
+ background-color: #000000;
 }
 
 .middle-menu {
@@ -766,7 +766,27 @@ input[type="radio"].visually-hidden {
   background-color: #f4f8f9;
 }
 
+.service-wrap {
+  padding-top: 60px;
+}
+
+.slogan-service {
+  margin-bottom: 60px;
+  width: 400px;
+}
+
+.service-block::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 279px;
+  background: url("../img/line.png") no-repeat;
+  left: 230px;
+  bottom: -59px;
+}
+
 .service {
+  margin: 0;
   font-size: 30px;
   line-height: 30px;
   font-weight: normal;
@@ -781,7 +801,33 @@ input[type="radio"].visually-hidden {
   font-weight: bold;
   color: #ffffff;
   background-color: #32425c; 
+  width: 240px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
+
+.service-block li {
+  min-height: 60px;
+}
+
+.service-block label {
+  padding-bottom: 15px;
+  margin: 0;
+  padding-left: 24px;
+  display: block;
+  padding-top: 15px;
+  cursor: pointer;
+}
+
+.delivery-item,
+.warranty-item,
+.credit-item {
+  position: relative;
+  padding: 0;
+  margin: 0;
+} 
+
 
 .item-block:hover,
 .item-block:focus {
@@ -1261,9 +1307,6 @@ input[type="radio"].visually-hidden {
   color: rgb(0, 0, 0, 0.3);
 }
 
-.cabinet {
-}
-
 .login span {
   margin-right: 25px
 }
@@ -1717,5 +1760,5 @@ input[type="radio"].visually-hidden {
   padding-top: 5px;
   padding-bottom: 5px;
   z-index: 2;
-  background: url(../img/new-flag.svg) no-repeat 0 0;
+  background: url(../img/new-flag.svg) no-repeat 0 0; }
 
