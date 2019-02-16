@@ -98,8 +98,10 @@ input[type="radio"].visually-hidden {
   border: none;
   outline: none;
   background-color: #293449;
-  padding-left: 20px;
   position: absolute;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-bottom: 4px;
 }
 
 .label-search {
@@ -113,7 +115,30 @@ input[type="radio"].visually-hidden {
   padding-right: 5px;
   padding-bottom: 11px;
   order: 2;
+  text-align: center;
+}
 
+.label-search:focus + .button-search svg {
+  fill: red;
+  background-color: white;
+}
+
+.label-search:hover + .button-search svg {
+  fill: #dbdddf;
+  background-color: #212a3a;
+}
+
+.magnifier {
+  fill: #6a7180;
+}
+
+.label-search:hover + .button-search {
+  background-color: #212a3a;
+}
+
+
+.label-search:focus + .button-search {
+  background-color: white;
 }
 
 .label-search::placeholder {
@@ -133,6 +158,10 @@ input[type="radio"].visually-hidden {
   color: #000000;
 }
 
+.label-search::placeholder {
+  padding-right: 40px;
+}
+
 .button-top-menu {
   font-size: 17px;
   line-height: 18px;
@@ -144,8 +173,14 @@ input[type="radio"].visually-hidden {
   min-width: 150px;
   text-align: center;
   padding-top: 12px;
+  display: flex;
+  justify-content: center;
 }
 
+.icon-bookmark {
+  display: inline-block;
+  margin-right: 5px;
+}
 
 .button-box-inner{
   min-width: 150px;
@@ -1833,6 +1868,5 @@ input[type="radio"].visually-hidden {
   height: 17px;
   padding-top: 5px;
   padding-bottom: 5px;
-  z-index: 2;
   background: url(../img/new-flag.svg) no-repeat 0 0; }
 
