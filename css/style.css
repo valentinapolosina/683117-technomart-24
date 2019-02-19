@@ -494,12 +494,7 @@ input[type="radio"].visually-hidden {
   background-repeat: no-repeat;
   background-position: 200px;
   margin-right: 20px;
-}
-
-.materials:before {
-  content: "";
-  background: url("../img/new-flag.svg") no-repeat 0 0;
-  position: absolute;
+  position: relative;
 }
 
 .instruments {
@@ -1859,14 +1854,49 @@ input[type="radio"].visually-hidden {
 }
 
 .new::before {
+  content: '';
   position: absolute;
-  display: block;
-  top: 6px;
-  right: -24px;
-  content: "new";
-  width: 90px;
+  top: 0;
+  right: 0;
+  width: 59px;
+  height: 60px;
+  background: url("../img/new-flag.png") no-repeat 0 0
+}
+
+
+.slider-controls label {
+  display: inline-block;
+  width: 17px;
   height: 17px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  background: url(../img/new-flag.svg) no-repeat 0 0; }
+  margin-right: 8px;
+
+  vertical-align: top;
+
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider-controls {
+  position: absolute;
+  bottom: 63px;
+  left: 0;
+  z-index: 20;
+  
+  font-size: 0;
+}
+
+
+#product-1:checked ~ .drills,
+#product-2:checked ~ .slider-perforators #slide2,
+#product-3:checked ~ .site-wrapper #slide3 {
+  display: block;
+}
+
+#product-1:checked ~ .label[for="product-1"],
+#product-2:checked ~ .label[for="product-2"],
+#product-3:checked ~ .label[for="product-3"] {
+  background-color: #ffffff;
+}
 
