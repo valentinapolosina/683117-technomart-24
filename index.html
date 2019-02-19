@@ -13,7 +13,7 @@
 <body>
     <header class="main-header">
         <div class="top-menu">
-            <div class="wrapper-header">
+            <div class="wrapper-header container">
                 <a class="logo"><img src="img/logo.svg" width="110" height="18 alt="Техномарт"></a>
                 <form action="https://echo.htmlacademy.ru" class="search-menu" method="post">
                     <label for="search" class="visually-hidden">Поиск</label>
@@ -140,7 +140,7 @@
                     <span class="discount">30 500 Р.</span>
                     <span class="price house">25 500 Р.</span>
                 </li>
-                <li class="bosh">
+                <li class="bosh no-sale">
                     <div class="actions">
                         <a href="#" class="button button-buy">Купить</a>
                         <a href="#" class="button-bookmark">В закладки</a>
@@ -176,18 +176,18 @@
                 <p class="slogan-service slogan">Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными</p>
             </div>
             <div class="service-block-wrapper">
-            <ul class="service-block">
-                <li>
                     <input class="visually-hidden delivery-button" type="radio" name="service" value="delivery-radio" id="delivery-radio" checked>
-                    <label for="delivery-radio" class="active-block">Доставка</label>
-                </li>
-                <li>
                     <input class="visually-hidden warranty-button" type="radio" name="service" value="warranty-radio" id="warranty-radio">
-                    <label for="warranty-radio" class="item-block">Гарантия</label>
+                    <input class="visually-hidden credit-button" type="radio" name="service" value="credit-radio" id="credit-radio">
+           <ul class="service-block">
+                <li>
+                   <label for="delivery-radio" class="delivery-block">Доставка</label>
                 </li>
                 <li>
-                    <input class="visually-hidden credit-button" type="radio" name="service" value="credit-radio" id="credit-radio">
-                    <label for="credit-radio" class="item-block">Кредит</label>
+                    <label for="warranty-radio" class="warranty-block">Гарантия</label>
+                </li>
+                <li>
+                    <label for="credit-radio" class="credit-block">Кредит</label>
                 </li>
             </ul>
             <div class="delivery-item">
@@ -233,11 +233,9 @@
     <footer class="footer">
         <div class="wrapper-top-footer container">
         <div class="footer-wrapper">
-            <div class="container">
     	    <a class="footer-logo"><img src="img/logo.svg" width="110" height="18 alt="Техномарт"></a>
     	    <address class="footer-address">г. Санкт-Петербург, ул Б. Конюшенная д. 19/8</address> 
             <a href="tel:+78125550555" class="footer-number">+7 (812) 555-05-55</a>
-            </div>
         </div>
         <div class="footer-navigation-wrapper">
             <ul class="footer-navigation">
