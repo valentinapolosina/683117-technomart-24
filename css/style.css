@@ -210,6 +210,12 @@ input[type="radio"].visually-hidden {
   min-width: 150px;
   border-radius: 0;
   box-sizing: border-box;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: normal;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .button-bookmarks,
@@ -219,8 +225,7 @@ input[type="radio"].visually-hidden {
 }
 
 .button-bookmarks,
-.button-box,
-.button-checkout {
+.button-box{
   text-transform: capitalize;
 }
 
@@ -352,6 +357,7 @@ input[type="radio"].visually-hidden {
 }
 
 .store {
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 16px;
   line-height: 23px;
   color: #ee3643;
