@@ -74,7 +74,8 @@ input[type="radio"].visually-hidden {
   font-size: 24px;
   font-weight: normal;
   line-height: 24px;
-  min-width: 220px;
+  margin-right: 2px;
+  min-width: 219px;
   padding-bottom: 9px;
   padding-top: 9px;
   text-align: center;
@@ -121,7 +122,7 @@ input[type="radio"].visually-hidden {
   min-width: 270px;
   order: 2;
   padding-bottom: 11px;
-  padding-right: 91px;
+  padding-right: 96px;
   padding-top: 10px;
   text-align: center;
 }
@@ -185,18 +186,18 @@ input[type="radio"].visually-hidden {
 }
 
 .icon-box {
-  opacity: 0.3;
   position: relative;
-  right: 11px;
-  top: 1px;
+    right: 11px;
+    top: 1px;
+    opacity: 0.3;
 }
 
 .button-box-inner {
   min-width: 150px;
-  padding-top: 11px;
-  text-align: center;
-  box-sizing: border-box;
-  padding-right: 2px;
+    padding-top: 11px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-right: 4px;
 }
 
 .button-box {
@@ -206,6 +207,7 @@ input[type="radio"].visually-hidden {
 }
 
 .button-checkout {
+  margin-right: 2px;
   border: none;
   border-radius: 0;
   box-sizing: border-box;
@@ -408,7 +410,6 @@ input[type="radio"].visually-hidden {
   flex-wrap: wrap;
   font-size: 17px;
   font-weight: normal;
-  justify-content: space-around;
   line-height: 17px;
   list-style: none;
   margin: 0;
@@ -1946,22 +1947,32 @@ input[type="radio"].visually-hidden {
   opacity: 1;
 }
 
+
 .button-box-inner:hover .icon-box {
   opacity: 1;
 }
 
-
-
-
-.site-navigation li:first-child {
-  flex-grow: 1;
-  text-align: right;
-  box-sizing: border-box;
-  padding-right: 3px;
+.site-navigation li:nth-child(6) a
+{
+    padding-right: 33px;
 }
 
-.site-navigation li:last-child {
+.site-navigation li:first-child a
+{
+  padding-right: 33px;
+  padding-left: 50px;
+}
+
+.site-navigation li:last-child a
+{
+  padding-right: 54px;
+}
+
+.box-red {
+  background-color: #ee3643;
   padding-left: 4px;
-  padding-right: 25px;
 }
+
+
+
 
