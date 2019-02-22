@@ -314,9 +314,9 @@ input[type="radio"].visually-hidden {
 .middle-menu {
   align-items: center;
   display: flex;
-  justify-content: center;
-  padding-bottom: 32px;
-  padding-top: 37px;
+  justify-content: center;    
+  padding-bottom: 40px;
+  padding-top: 46px;
 }
 
 .contact-header {
@@ -345,9 +345,8 @@ input[type="radio"].visually-hidden {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 25px;
-  margin-top: 25px;
 }
+
 
 .icon-box svg:hover {
   opacity: 1;
@@ -359,6 +358,8 @@ input[type="radio"].visually-hidden {
 }
 
 .store {
+  margin: 0;
+  padding: 0;
   color: #ee3643;
   font-family: "Cuprum", "Arial", sans-serif;
   font-size: 16px;
@@ -384,6 +385,9 @@ input[type="radio"].visually-hidden {
   padding-left: 7px;
 }
 
+.cabinet {
+  margin-left: 20px;
+}
 
 .login-and-registration {
   color: #000000;
@@ -1438,6 +1442,8 @@ input[type="radio"].visually-hidden {
   color: #000000;
   font-size: 21px;
   line-height: 21px;
+  display: flex;
+  align-items: center;
 }
 
 .login:active {
@@ -1445,22 +1451,30 @@ input[type="radio"].visually-hidden {
 }
 
 .login span {
-  margin-right: 25px;
+  margin-right: 12px;
+  padding-left: 13px;
+  padding-top: 4px;
 }
 
 .login-exit {
-  margin-left: 15px;
+  margin-left: 37px;
   margin-top: 5px;
 }
 
 .login-and-exit {
   align-items: center;
-  background-color: #ffffff;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 10px;
-  min-height: 38px;
-  width: 300px;
+    background-color: #ffffff;
+    display: flex;
+    margin-bottom: 10px;
+    min-height: 36px;
+    width: 300px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.orders-link {
+  box-sizing: border-box;
+  padding-right: 31px;
 }
 
 .orders-link,
@@ -1469,6 +1483,7 @@ input[type="radio"].visually-hidden {
   font-size: 16px;
   line-height: 18px;
   text-decoration: underline;
+  
 }
 
 .orders-link:focus,
@@ -1485,6 +1500,8 @@ input[type="radio"].visually-hidden {
 
 .list-style-link {
   list-style: none;
+  padding-left: 17px;
+  box-sizing: border-box;
 }
 
 .login-exit:hover,
@@ -1503,7 +1520,6 @@ input[type="radio"].visually-hidden {
 
 .user-link {
   display: flex;
-  justify-content: space-evenly;
   margin: 0;
   padding: 0;
 }
@@ -1524,15 +1540,52 @@ input[type="radio"].visually-hidden {
   position: relative;
 }
 
-.breadcrumbs li::after {
+.breadcrumbs img {
+  margin-bottom: 4px;
+  display: block;
+  margin-left: 6px;
+}
+
+.breadcrumbs-home::after {
   background: url("../img/icon-right-small.svg") no-repeat;
   content: "";
   height: 14px;
   position: absolute;
-  right: -25px;
+  right: -22px;
   top: 2px;
   width: 8px;
 }
+
+.breadcrumbs-catalog::after {
+  background: url("../img/icon-right-small.svg") no-repeat;
+  content: "";
+  height: 14px;
+  position: absolute;
+  right: -20px;
+  top: 2px;
+  width: 8px;
+}
+
+.breadcrumbs-catalog {
+  padding-left: 7px;
+  margin-right: 5px;
+}
+
+.breadcrumbs-instruments::after {
+  background: url("../img/icon-right-small.svg") no-repeat;
+  content: "";
+  height: 14px;
+  position: absolute;
+  right: -18px;
+  top: 2px;
+  width: 8px;
+}
+
+.breadcrumbs-instruments {
+  margin-right: 8px;
+}
+
+
 
 .breadcrumbs {
   align-items: center;
@@ -1542,6 +1595,8 @@ input[type="radio"].visually-hidden {
   margin: 0;
   min-height: 60px;
   padding: 0;
+  width: 960px;
+  margin: 0 auto;
 }
 
 
@@ -1558,9 +1613,11 @@ input[type="radio"].visually-hidden {
   font-size: 30px;
   font-weight: normal;
   line-height: 30px;
-  min-height: 80px;
-  padding-left: 30px;
-  padding-top: 20px;
+  text-transform: uppercase;
+  padding-left: 26px;
+  padding-top: 29px;
+  margin-bottom: 10px;
+  min-height: 89px;
 }
 
 .filters {
@@ -1972,7 +2029,3 @@ input[type="radio"].visually-hidden {
   background-color: #ee3643;
   padding-left: 4px;
 }
-
-
-
-
