@@ -122,9 +122,8 @@ input[type="radio"].visually-hidden {
   min-width: 270px;
   order: 2;
   padding-bottom: 11px;
-  padding-right: 96px;
+  padding-left: 46px;
   padding-top: 10px;
-  text-align: center;
 }
 
 .label-search:focus + .button-search svg {
@@ -311,15 +310,31 @@ input[type="radio"].visually-hidden {
   color: #f04955;
 }
 
-.login:hover ~ .proba {
- color: #32425c;
+.login-svg {
+  fill: #32425c;
+  opacity: 0.3;
 }
 
-.login:focus ~ .proba {
-  color: #32425c;
+.proba1 {
+  fill: #32425c;
+  opacity: 0.3;
+}
+
+
+
+.login:hover .login-svg {
+ opacity: 1;
+}
+
+.login:focus .login-svg {
+  opacity: 0.6;
+ }
+
+ .proba1:hover,
+ .proba1:focus {
+   opacity: 1;
  }
  
-
 
 .middle-menu {
   align-items: center;
@@ -364,6 +379,7 @@ input[type="radio"].visually-hidden {
 
 .container {
   margin: 0 auto;
+  padding: 0 10px;
   width: 940px;
 }
 
@@ -454,17 +470,18 @@ input[type="radio"].visually-hidden {
 
 .list-items {
   color: #ffffff;
-  padding-top: 60px;
+  margin-top: 60px;
 }
 
 .list-item {
   box-sizing: border-box;
   font-size: 24px;
   font-weight: bold;
+  margin: 0;
+  padding: 0;
   line-height: 30px;
-  padding-left: 0px;
-  margin-top: 22px;
   margin-bottom: 11px;
+  padding-left: 1px;
 }
 
 .button-list {
@@ -491,9 +508,18 @@ input[type="radio"].visually-hidden {
 }
 
 .catalog {
+  padding-left: 48px;
   background-color: #ee3643;
   font-weight: normal;
   text-transform: uppercase;
+  display: inline-block;
+  font-weight: normal;
+  margin-top: 122px;
+  margin-left: 6px;
+  padding-bottom: 8px;
+  padding-top: 10px;
+  text-align: center;
+  padding-right: 47px;
 }
 
 .wrapper-for-item {
@@ -501,9 +527,7 @@ input[type="radio"].visually-hidden {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  padding-bottom: 20px;
-  padding-right: 20px;
-  padding-left: 21px;
+  padding: 20px;
   width: 299px;
 }
 
@@ -535,7 +559,7 @@ input[type="radio"].visually-hidden {
   background-position: 212px;
   background-repeat: no-repeat;
   background-position-y: 30px;
-  margin-right: 20px;
+  margin-right: 21px;
   position: relative;
 }
 
@@ -552,7 +576,7 @@ input[type="radio"].visually-hidden {
   background-image: url(../img/icon-3.svg);
   background-position: 189px;
   background-repeat: no-repeat;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 .sale {
@@ -560,7 +584,7 @@ input[type="radio"].visually-hidden {
   background-image: url(../img/icon-4.svg);
   background-position: 194px;
   background-repeat: no-repeat;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
 }
 
 .delivery {
@@ -583,13 +607,20 @@ input[type="radio"].visually-hidden {
   font-size: 18px;
   font-weight: normal;
   line-height: 24px;
+  padding: 0;
+  margin: 0;
+  margin-top: 2px;
+  margin-left: 3px;
 }
 
 .sliders {
   margin: 0;
-  margin-top: 20px;
+  margin-top: 22px;
   padding: 0;
+  margin-right: 0px;
+  margin-left: -1px;
 }
+
 
 
 .drills {
@@ -601,8 +632,13 @@ input[type="radio"].visually-hidden {
   box-sizing: border-box;
   height: 266px;
   padding-left: 20px;
-  padding-top: 50px;
-  width: 640px;
+  padding-top: 23px;
+  margin-right: 20px;
+  padding-right: 20px;
+  width: 620px;
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
 }
 
 .slider-perforators {
@@ -617,11 +653,12 @@ input[type="radio"].visually-hidden {
 
 .popular-manufacturers {
   align-items: center;
-  background-color: #f9f5f0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 58px;
+    background-color: #f9f5f0;
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 54px
 }
 
 .popular {
@@ -629,12 +666,11 @@ input[type="radio"].visually-hidden {
     font-size: 30px;
     font-weight: normal;
     line-height: 30px;
-    padding-left: 26px;
     text-transform: uppercase;
+    margin: 0;
 }
 
 .button-popular {
-  margin-right: 26px;
     min-width: 214px;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -648,7 +684,7 @@ input[type="radio"].visually-hidden {
   justify-content: space-between;
   list-style: none;
   margin: 0;
-  margin-top: 30px;
+  margin-top: 22px;
   padding: 0;
 }
 
@@ -696,7 +732,8 @@ input[type="radio"].visually-hidden {
   flex-direction: column;
   position: relative;
   text-align: center;
-  width: 220px;
+  width: 217px;
+  height: 315px;
 }
 
 .goods-wrapper {
@@ -772,57 +809,66 @@ input[type="radio"].visually-hidden {
   font-size: 17px;
   font-weight: bold;
   line-height: 18px;
-  margin: 10px auto;
-  margin-bottom: 20px;
   padding: 10px 30px;
   position: relative;
   width: 80px;
 }
 
 .price::after {
-  border: 20px solid white;
+  border: 19px solid white;
   border-left-color: #ee3643;
   content: "";
   height: 0;
   position: absolute;
-  right: -20px;
+  right: -21px;
   top: 0;
   width: 0;
 }
 
 .title {
-  margin-bottom: 15px;
+  margin-bottom: 11px;
   margin-top: 10px;
   min-height: 40px;
   padding: 0 25px;
+  padding-left: 20px;
 }
 
 .discount {
   color: #999999;
-  margin-bottom: 10px;
-  margin-top: 15px;
-  min-height: 20px;
+  min-height: 15px;
   text-decoration: line-through;
+  padding-right: 1px;
+  margin-bottom: 9px;
 }
 
 .manufactures {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   list-style: none;
+  justify-content: space-between;
   margin: 0;
   margin-top: 20px;
   padding: 0;
+  margin-bottom: 70px;
+}
+
+.manufactures li {
+  
+  width: 220px;
+  margin-bottom: 19px;
+  height: 145px;
 }
 
 .manufactures-item {
-  align-items: center;
   border: 1px solid #e5e5e5;
   display: flex;
-  height: 150px;
   justify-content: center;
-  margin-bottom: 20px;
-  width: 220px;
+  height: 100%;
+  align-items: center;
+}
+
+.interskoll {
+  padding-bottom: 11px;
 }
 
 .manufactures-item:focus,
@@ -837,6 +883,11 @@ input[type="radio"].visually-hidden {
 
 .service-delivery {
   background-color: #f4f8f9;
+  min-height: 520px;
+}
+
+.company-slogan {
+  letter-spacing: 0.1px;
 }
 
 .service-wrap {
@@ -861,24 +912,26 @@ input[type="radio"].visually-hidden {
 
 .service {
   font-size: 30px;
-  font-weight: normal;
-  line-height: 30px;
-  margin: 0;
-  text-transform: uppercase;
+    font-weight: normal;
+    line-height: 30px;
+    margin: 0;
+    margin-top: 4px;
+    text-transform: uppercase;
 }
 
 .service-block {
   background-color: #32425c;
-  color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  font-size: 21px;
-  font-weight: bold;
-  line-height: 30px;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  width: 240px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 30px;
+    margin: 0;
+    margin-top: 75px;
+    padding: 0;
+    position: relative;
+    width: 240px;
 }
 
 .service-block-wrapper {
@@ -889,32 +942,32 @@ input[type="radio"].visually-hidden {
 
 
 .slogan-delivery-item::after {
-  background: url("../img/delivery.png") no-repeat;
+  background: url(../img/delivery.png) no-repeat;
   content: "";
   height: 261px;
-  left: 153px;
+  left: 148px;
   position: absolute;
-  top: -37px;
+  top: 89px;
   width: 470px;
 }
 
 .slogan-warranty-item::after {
-  background: url("../img/guarantee.png") no-repeat;
+  background: url(../img/guarantee.png) no-repeat;
   content: "";
   height: 283px;
   position: absolute;
-  right: -48px;
-  top: -62px;
+  right: -1px;
+  top: 70px;
   width: 385px;
 }
 
 .slogan-credit-name::after {
-  background: url("../img/credit.png") no-repeat;
+  background: url(../img/credit.png) no-repeat;
   content: "";
   height: 255px;
   position: absolute;
-  right: -12px;
-  top: -21px;
+  right: -14px;
+  top: 65px;
   width: 470px;
 }
 
@@ -927,15 +980,21 @@ input[type="radio"].visually-hidden {
 }
 
 .service-block label {
+  min-height: 62px;
   cursor: pointer;
   display: block;
   margin: 0;
-  padding-bottom: 15px;
-  padding-left: 24px;
-  padding-top: 15px;
+  box-sizing: border-box;
+  padding-left: 19px;
+  padding-top: 12px;
+  margin-bottom: 0px;
+  margin-top: -2px;
 }
 
-.warranty-item,
+.delivery-block, 
+.warranty-block {
+border-bottom: 1px solid #293449;
+}
 
 .credit-item {
   display: none;
@@ -980,17 +1039,19 @@ input[type="radio"].visually-hidden {
 }
 
 .no-sale .title {
-  margin-bottom: 50px;
+  margin-bottom: 38px;
 }
 
 .item-name {
   color: #32425c;
-  font-size: 36px;
-  font-weight: normal;
-  line-height: 24px;
-  margin: 0;
-  padding: 0;
-  text-transform: uppercase;
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    padding-top: 73px;
 }
 
 .slogan-delivery-item {
@@ -999,12 +1060,15 @@ input[type="radio"].visually-hidden {
 
 .send-request {
   background-color: #ff5357;
+  margin-top: 27px;
   color: #ffffff;
   display: block;
   font-weight: normal;
   text-align: center;
   text-transform: uppercase;
-  width: 140px;
+  width: 153px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .company-techomart {
@@ -1013,13 +1077,16 @@ input[type="radio"].visually-hidden {
 
 .button-letter {
   padding-bottom: 10px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 10px;
+  padding-left: 64px;
+  padding-right: 63px;
+  padding-top: 9px;
+  text-align: center;
+  box-sizing: border-box;
 }
 
+
 .map {
-  margin-bottom: 40px;
+  margin-bottom: 43px;
   margin-top: 30px;
 }
 
@@ -1028,7 +1095,8 @@ input[type="radio"].visually-hidden {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  min-height: 540px;
+  margin-bottom: 38px;
+  min-height: 498px;
 }
 
 .contact {
@@ -1037,18 +1105,26 @@ input[type="radio"].visually-hidden {
 
 .company-wrapper {
   align-items: baseline;
-  display: flex;
-  flex-direction: column;
-  width: 540px;
+    display: flex;
+    flex-direction: column;
+    width: 540px;
 }
 
 .company-techomart {
+  margin-bottom: 29px;
   font-size: 30px;
   font-weight: normal;
   line-height: 30px;
   text-transform: uppercase;
 }
 
+.company-slogan {
+  padding-bottom: 24px;
+}
+
+.company-delivery {
+  padding-bottom: 6px;
+}
 
 
 .contact {
@@ -1061,8 +1137,20 @@ input[type="radio"].visually-hidden {
 .slogan {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
+  padding-top: 28px;
   font-weight: normal;
   line-height: 24px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.techomart-slogan {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 24px;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .company-list {
@@ -1075,6 +1163,11 @@ input[type="radio"].visually-hidden {
   padding: 0;
   padding-left: 40px;
   position: relative;
+}
+
+.company-list li {
+  margin-bottom: 20px;
+    padding-left: 36px;
 }
 
 .company-list li::before {
@@ -1964,12 +2057,28 @@ input[type="radio"].visually-hidden {
     height: 60px;
     position: absolute;
     right: 1px;
-    top: 1;
-    bottom: 63px;
-    top: 1;
+    top: 0;
     width: 59px;
 }
 
+.no-sale::before {
+  background: url(../img/new-flag.png) no-repeat 0 0;
+  content: "";
+  height: 60px;
+  position: absolute;
+  right: 1px;
+  top: 0;
+  width: 59px;
+}
+
+.popular-item {
+  margin-top: 23px;
+}
+
+.manufactures li {
+  width: 220px;
+  height: 145px;
+}
 
 
 .slider-controls label {
@@ -2040,14 +2149,10 @@ input[type="radio"].visually-hidden {
 
 .site-navigation li:first-child a
 {
-  padding-right: 33px;
-  padding-left: 50px;
+  margin-left: 21px;
+  margin-right: 2px;
 }
 
-.site-navigation li:last-child a
-{
-  padding-right: 54px;
-}
 
 .box-red {
   background-color: #ee3643;
@@ -2129,3 +2234,58 @@ input[type="radio"].visually-hidden {
   font-size: 16px;
   line-height: 18px;
 }
+
+.slider-arrow-left {
+  background-image: url(../img/icon-left.svg);
+  left: 24px;
+}
+
+.slider-arrow {
+  position: absolute;
+    width: 22px;
+    height: 40px;
+    top: 136px;
+}
+
+.slider-arrow-right {
+  background-image: url(../img/icon-right.svg);
+  right: 40px;
+  display: block;
+}
+
+.sliders-wrapper {
+  position: relative;
+}
+
+.slider-circle {
+display: block;
+width: 10px;
+position: relative;
+border-radius: 50%;
+background-color: #ffffff;
+cursor: pointer;
+}
+
+.slider-circle::after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+  background: #ffffff;
+}
+
+.sliders-circle {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 295px;
+  bottom: 35px;
+  width: 30px;
+  height: 10px;
+}
+
+
+

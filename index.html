@@ -68,6 +68,17 @@
                     <a class="button-list" href="#">На все случаи</a>
                 </li>
               </ul>
+              <div class="sliders-wrapper">
+                    <input class="visually-hidden drills-button" type="radio" name="slider" value="drills-radio" id="drills-radio" checked>
+                    <input class="visually-hidden perforators-button" type="radio" name="slider" value="perforators-radio" id="perforators-radio">
+                    <div class="slider-arrows">
+                        <label for="drills-radio" class="slider-arrow-left slider-arrow"><span class="visually-hidden">Предыдущий</span></label>
+                        <label for="perforators-radio" class="slider-arrow-right slider-arrow"><span class="visually-hidden">Следующий</span></label>
+                    </div>
+                    <div class="sliders-circle">
+                        <label for="drills-radio" class="slider-circle-left slider-circle"><span class="visually-hidden">Предыдущий</span></label>
+                        <label for="perforators-radio" class="slider-circle-right slider-circle"><span class="visually-hidden">Следующий</span></label>
+                    </div>
                 <ul class="sliders">
                             <li class="drills slider-item">
                         <h5 class="slider-name">Дрели</h5>
@@ -80,6 +91,9 @@
                         <a class="catalog button" href="catalog.html">Открыть каталог</a>
                     </li>
                 </ul>
+              
+
+                </div>
             </div>
             <ul class="wrapper">
                 <li class="equipment  wrapper-for-item">
@@ -97,7 +111,7 @@
             </ul>
         </section>
         <section class="good-and-catalog container">
-            <div class="popular-manufacturers container">
+            <div class="popular-manufacturers">
                 <h2 class="popular">Популярные товары:</h2>
                 <a class="button button-popular">Все популярные товары</a>
             </div>
@@ -144,16 +158,16 @@
             </ul>
         </section>
         <section class="manufacturers container">
-            <div class="popular-manufacturers">
+            <div class="popular-manufacturers popular-item">
                 <h2 class="popular">Популярные производители:</h2>
                 <a class="button button-popular">Все производители</a>
             </div>
-            <div class="manufactures-list container">
+            <div class="manufactures-list">
                 <ul class="manufactures">
                     <li><a href="#" class="manufactures-item"><img src="img/bosch.png" width="126" height="37" alt="Bosch"></a></li>
                     <li><a href="#" class="manufactures-item"><img src="img/Makita.png" width="123" height="40" alt="Makita"> </a></li>
                     <li><a href="#" class="manufactures-item"><img src="img/DeWALT.png" width="146" height="44" alt="DeWalt"></a></li>
-                    <li><a href="#" class="manufactures-item"><img src="img/interskoll.png" width="200" height="88" alt="Interskol"></a></li>
+                    <li><a href="#" class="manufactures-item"><img src="img/interskoll.png" class="interskoll" width="200" height="88" alt="Interskol"></a></li>
                     <li><a href="#" class="manufactures-item"><img src="img/Hitachi.png" width="169" height="31" alt="Hitachi"></a></li>
                     <li><a href="#" class="manufactures-item"><img src="img/LG.png" width="121" height="73" alt="LG"></a></li>
                     <li><a href="#" class="manufactures-item"><img src="img/AEG.png" width="151" height="96" alt="AEG"></a></li>
@@ -204,8 +218,8 @@
             <div class="company-wrapper">
             <div class="company-main">
                 <h5 class="company-techomart">Компания «Техномарт»</h5>
-                <p class="company-slogan slogan">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах</p>
-                <p class="company-delivery slogan">Мы можем доставить ваш товар в самые удаленные точки России! <br> Техномарт работает со многими транспортными компаниями:</p>
+                <p class="company-slogan techomart-slogan">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах</p>
+                <p class="company-delivery techomart-slogan">Мы можем доставить ваш товар в самые отдаленные точки России! <br> Техномарт работает со многими транспортными компаниями:</p>
             </div>
                 <ul class="company-list">
                     <li class="business-line">Деловые линии</li>
@@ -218,7 +232,7 @@
                 <h5 class="contact">Контакты</h5>
                 <p class="contact-slogan slogan">Вы можете забрать товар сами, <br> заехав в наш офис:</p>
                 <div class="map"><a href="#"><img src="img/mini-map.jpg" width="300" height="158" alt="г. Санкт-Петербург, ул Б. Конюшенная д. 19/8"></a></div>
-                <a class="button-letter button" href="#">Заблудились? Напишите нам</a>
+                <a class="button-letter button" href="#">Заблудились? Напишите нам!</a>
             </div>
         </section> 
     </main>
