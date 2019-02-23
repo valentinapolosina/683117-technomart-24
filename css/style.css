@@ -311,6 +311,16 @@ input[type="radio"].visually-hidden {
   color: #f04955;
 }
 
+.login:hover ~ .proba {
+ color: #32425c;
+}
+
+.login:focus ~ .proba {
+  color: #32425c;
+ }
+ 
+
+
 .middle-menu {
   align-items: center;
   display: flex;
@@ -1616,7 +1626,7 @@ input[type="radio"].visually-hidden {
   text-transform: uppercase;
   padding-left: 26px;
   padding-top: 29px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   min-height: 89px;
 }
 
@@ -1629,6 +1639,7 @@ input[type="radio"].visually-hidden {
   line-height: 18px;
   margin-bottom: 10px;
   padding: 10px 0 10px 18px;
+  text-transform: uppercase;
 }
 
 .filter legend {
@@ -1651,6 +1662,16 @@ input[type="radio"].visually-hidden {
 
 .filter-list ul {
   list-style: none;
+}
+
+.filter {
+  position: relative;
+}
+
+.filter fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
 }
 
 .filter-list {
@@ -1701,6 +1722,9 @@ input[type="radio"].visually-hidden {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-bottom: 26px;
+  padding-top: 8px;
+  padding-bottom: 9px;
 }
 
 .goods {
@@ -2028,4 +2052,80 @@ input[type="radio"].visually-hidden {
 .box-red {
   background-color: #ee3643;
   padding-left: 4px;
+}
+
+
+
+
+.range-controls {
+  position: relative;
+  height: 80px;
+  margin: 14px 0 10px;
+  padding: 0 30px;
+  overflow: hidden;
+  background: #f7f3ec;
+  border-radius: 3px;
+}
+
+.range-filter {
+  background-color: #f7f3ec;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+}  
+
+.scale {
+  height: 2px;
+  background: #d7dcde;
+}
+
+.bar {
+  width: 87%;
+  height: 2px;
+  background: #00ca74;
+}
+
+.toggle {
+  position: absolute;
+  top: 50px;
+  width: 4px;
+  right: 52px;
+  height: 4px;
+  background: #ababab;
+  border: 8px solid #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+  box-sizing: content-box;
+}
+
+.toggle-max {
+  left: 28px;
+}
+
+.price-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 26px;
+  color: #000000;
+  font-size: 13px;
+  line-height: 24px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  color: #000000;
+}
+
+.price-input {
+  width: 95px;
+  padding: 8px 2px 10px 8px;
+  text-align: center;
+  border: none;
+  border-radius: 3px;
+  margin: 0;
+}
+
+.price-min+span {
+  font-size: 16px;
+  line-height: 18px;
 }
