@@ -411,6 +411,12 @@ input[type="radio"].visually-hidden {
   text-transform: uppercase;
 }
 
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 940px;
+}
+
 .wrapper-middle-menu {
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -421,16 +427,11 @@ input[type="radio"].visually-hidden {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  margin: 0;
 }
 
 .icon-box svg:hover {
   opacity: 1;
-}
-
-.container {
-  margin: 0 auto;
-  padding: 0 10px;
-  width: 940px;
 }
 
 .store {
@@ -918,6 +919,12 @@ input[type="radio"].visually-hidden {
   font-size: 18px;
   font-weight: bold;
   line-height: 20px;
+  width: 190px;
+   margin-bottom: 11px;
+  margin-top: 10px;
+  min-height: 40px;
+  padding: 0 25px;
+  padding-left: 20px;
 }
 
 .discount {
@@ -939,10 +946,12 @@ input[type="radio"].visually-hidden {
   font-size: 17px;
   font-weight: bold;
   line-height: 18px;
-  padding: 10px 30px;
   position: relative;
   width: 80px;
   padding-left: 29px;
+  padding-top: 9px;
+  padding-bottom: 10px;
+  padding-right: 29px;
 }
 
 .price::after {
@@ -954,14 +963,6 @@ input[type="radio"].visually-hidden {
   right: -21px;
   top: 0;
   width: 0;
-}
-
-.title {
-  margin-bottom: 11px;
-  margin-top: 10px;
-  min-height: 40px;
-  padding: 0 25px;
-  padding-left: 20px;
 }
 
 .discount {
