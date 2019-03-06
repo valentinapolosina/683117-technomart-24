@@ -72,7 +72,9 @@ input[type="radio"].visually-hidden {
 .logo img {
   display: inline-block;
   position: relative;
-  top: 3px;
+  left: 1px;
+  bottom: 2px;
+  vertical-align: bottom;
 }
 
 .logo:hover,
@@ -1709,7 +1711,7 @@ label.warranty-block {
   background-color: transparent;
   border: 0;
   cursor: pointer;
-  /*  display: none; */
+  z-index: 20;
 }
 
 .button-close::before,
@@ -2616,11 +2618,11 @@ label.warranty-block {
   opacity: 1;
 }
 
-.site-navigation li:nth-child(6) a {
+.delivery-page {
   padding-right: 33px;
 }
 
-.site-navigation li:first-child a {
+.main-page {
   margin-left: 21px;
   margin-right: 2px;
 }
@@ -2801,4 +2803,89 @@ label.warranty-block {
 
 .line-two {
   margin-top: 3px;
+}
+
+.modal-show {
+    display: block;
+    -webkit-animation: bounce 0.6s;
+            animation: bounce 0.6s;
+}
+
+.modal-error {
+  -webkit-animation: shake 0.6s;
+          animation: shake 0.6s;
+}
+
+.map-popup iframe
+{
+    position: relative;
+    z-index: 2;
+
+    border: none;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: translateY(-2000px);
+            transform: translateY(-2000px);
+  }
+
+  50% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+
+  90% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    -webkit-transform: translateY(-2000px);
+            transform: translateY(-2000px);
+  }
+
+  50% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+
+  90% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-10px);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(10px);
+  }
 }
