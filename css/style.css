@@ -332,6 +332,8 @@ input[type="radio"].visually-hidden {
 .login-svg {
   fill: #32425c;
   opacity: 0.3;
+  padding-left: 13px;
+  margin-right: 13px;
 }
 
 .proba1 {
@@ -580,6 +582,7 @@ input[type="radio"].visually-hidden {
   padding-top: 10px;
   text-align: center;
   padding-right: 47px;
+  vertical-align: middle;
 }
 
 .wrapper-for-item {
@@ -2569,7 +2572,6 @@ label.warranty-block {
   display: inline-block;
   height: 17px;
   margin-right: 8px;
-
   vertical-align: top;
   width: 17px;
 }
