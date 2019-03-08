@@ -293,7 +293,7 @@ input[type="radio"].visually-hidden {
 }
 
 .login-link:active {
-  color: rgb(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .registration-link {
@@ -311,7 +311,7 @@ input[type="radio"].visually-hidden {
 }
 
 .registration-link:active {
-  color: rgb(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .button-checkout:hover,
@@ -408,7 +408,7 @@ input[type="radio"].visually-hidden {
   font-weight: normal;
   line-height: 24px;
   margin-right: 2px;
-  min-width: 219px;
+  min-width: 220px;
   padding-bottom: 9px;
   padding-top: 9px;
   text-align: center;
@@ -531,7 +531,7 @@ input[type="radio"].visually-hidden {
 
 .site-item:active {
   background-color: #1d2739;
-  color: rgb(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .list-item {
@@ -543,11 +543,11 @@ input[type="radio"].visually-hidden {
   padding: 0;
   line-height: 30px;
   margin-bottom: 11px;
-  padding-left: 1px;
+  padding-left: 2px;
 }
 
 .button-list {
-  background-color: rgb(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
   color: #ffffff;
   text-align: center;
   font-weight: normal;
@@ -563,25 +563,25 @@ input[type="radio"].visually-hidden {
 
 .button-list:focus,
 .button-list:hover {
-  background-color: rgb(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .button-list:active {
-  background-color: rgb(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .catalog {
-  padding-left: 48px;
+  padding-left: 50px;
   background-color: #ee3643;
   font-weight: normal;
   text-transform: uppercase;
   display: inline-block;
-  margin-top: 122px;
-  margin-left: 6px;
-  padding-bottom: 8px;
-  padding-top: 10px;
+  margin-top: 121px;
+  margin-left: 4px;
+  padding-bottom: 9px;
+  padding-top: 9px;
   text-align: center;
-  padding-right: 47px;
+  padding-right: 46px;
   vertical-align: middle;
 }
 
@@ -600,6 +600,7 @@ input[type="radio"].visually-hidden {
   flex-direction: column;
   padding: 20px;
   width: 299px;
+  height: 121px;
 }
 
 .slider-wrapper {
@@ -655,21 +656,21 @@ input[type="radio"].visually-hidden {
   background-image: url(../img/icon-2.svg);
   background-position: 196px;
   background-repeat: no-repeat;
-  background-position-y: 34px;
+  background-position-y: 32px;
 }
 
 .equipment {
   background-color: #dc91d8;
   background-image: url(../img/icon-3.svg);
-  background-position: 189px;
+  background-position: 191px;
   background-repeat: no-repeat;
-  margin-bottom: 24px;
+  margin-bottom: 22px;
 }
 
 .sale {
   background-color: #8ed78f;
   background-image: url(../img/icon-4.svg);
-  background-position: 194px;
+  background-position: 196px;
   background-repeat: no-repeat;
   margin-bottom: 22px;
 }
@@ -677,8 +678,9 @@ input[type="radio"].visually-hidden {
 .delivery {
   background-color: #ffc047;
   background-image: url(../img/icon-5.svg);
-  background-position: 189px;
+  background-position: 191px;
   background-repeat: no-repeat;
+  background-position-y: 31px;
 }
 
 .slider-name {
@@ -687,6 +689,7 @@ input[type="radio"].visually-hidden {
   line-height: 36px;
   margin: 0;
   padding: 0;
+  padding-left: 2px;
   text-transform: uppercase;
 }
 
@@ -788,13 +791,13 @@ input[type="radio"].visually-hidden {
   justify-content: space-between;
   list-style: none;
   margin: 0;
-  margin-top: 22px;
+  margin-top: 20px;
   padding: 0;
 }
 
 .bosh:hover {
-  -webkit-box-shadow: 0 10px 25px rgb(171, 175, 184);
-  box-shadow: 0 10px 25px rgb(171, 175, 184);
+  -webkit-box-shadow: 0 10px 25px rgba(171, 175, 184);
+  box-shadow: 0 10px 25px rgba(171, 175, 184);
 }
 
 .actions {
@@ -916,7 +919,7 @@ input[type="radio"].visually-hidden {
 
 .button-bookmark:active {
   border: 2px solid #c1c6ce;
-  color: rgb(50, 66, 92, 0.3);
+  color: rgba(50, 66, 92, 0.3);
 }
 
 .title {
@@ -929,7 +932,11 @@ input[type="radio"].visually-hidden {
   margin-top: 10px;
   min-height: 40px;
   padding: 0 25px;
-  padding-left: 20px;
+  padding-left: 22px;
+}
+
+.bosh img {
+  padding-right: 2px;
 }
 
 .discount {
@@ -939,10 +946,14 @@ input[type="radio"].visually-hidden {
   font-weight: bold;
   line-height: 18px;
   text-decoration: line-through;
+  color: #999999;
+  min-height: 15px;
+  text-decoration: line-through;
+  margin-bottom: 9px;
 }
 
 .price {
-  background: #ee3643;
+   background: #ee3643;
   background-color: #ee3643;
   border-radius: 3px;
   color: #ffffff;
@@ -952,9 +963,10 @@ input[type="radio"].visually-hidden {
   font-weight: bold;
   line-height: 18px;
   position: relative;
-  width: 80px;
+  width: 81px;
+  margin-left: 2px;
   padding-left: 29px;
-  padding-top: 9px;
+  padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 29px;
 }
@@ -970,14 +982,6 @@ input[type="radio"].visually-hidden {
   width: 0;
 }
 
-.discount {
-  color: #999999;
-  min-height: 15px;
-  text-decoration: line-through;
-  padding-right: 1px;
-  margin-bottom: 9px;
-}
-
 .manufactures {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -989,16 +993,19 @@ input[type="radio"].visually-hidden {
   -ms-flex-pack: justify;
   justify-content: space-between;
   margin: 0;
-  margin-top: 20px;
+  margin-top: 22px;
   padding: 0;
-  margin-bottom: 68px;
+  margin-bottom: 66px;
 }
 
 .manufactures li {
-
   width: 220px;
-  margin-bottom: 19px;
-  height: 145px;
+  margin-bottom: 22px;
+  height: 143px;
+}
+
+.manufactures-item img {
+  padding-right: 3px;
 }
 
 .manufactures-item {
@@ -1017,6 +1024,32 @@ input[type="radio"].visually-hidden {
 
 .interskoll {
   padding-bottom: 11px;
+}
+
+
+.interskoll {
+  padding-bottom: 16px;
+}
+
+.hitachi {
+  padding-left: 5px;
+}
+
+.metabo {
+  padding-bottom: 8px;
+  padding-left: 5px;
+}
+
+.makita {
+  padding-bottom: 3px;
+}
+
+.dewalt {
+  padding-bottom: 3px;
+}
+
+.aeg {
+  padding-bottom: 3px;
 }
 
 .manufactures-item:focus,
@@ -1044,6 +1077,10 @@ input[type="radio"].visually-hidden {
 .service-wrap {
   padding-bottom: 60px;
   padding-top: 60px;
+}
+
+.service-item p {
+  padding-top: 26px;
 }
 
 .slogan-service {
@@ -1108,9 +1145,9 @@ input[type="radio"].visually-hidden {
   background: url(../img/delivery.png) no-repeat;
   content: "";
   height: 261px;
-  left: 148px;
+  left: 150px;
   position: absolute;
-  top: 89px;
+  top: 92px;
   width: 470px;
 }
 
@@ -1130,7 +1167,7 @@ input[type="radio"].visually-hidden {
   height: 255px;
   position: absolute;
   right: -14px;
-  top: 65px;
+  top: 68px;
   width: 470px;
 }
 
@@ -1149,14 +1186,19 @@ input[type="radio"].visually-hidden {
   margin: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  padding-left: 19px;
-  padding-top: 13px;
+  padding-left: 21px;
+  padding-top: 14px;
   margin-bottom: 0px;
   margin-top: -2px;
 }
 
 label.warranty-block {
-  padding-left: 22px;
+  padding-top: 15px;
+  padding-left: 21px;
+}
+
+label.credit-block {
+  padding-top: 16px;
 }
 
 .delivery-block,
@@ -1329,13 +1371,12 @@ label.warranty-block {
 .slogan {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
-  padding-top: 28px;
+  padding-top: 31px;
   font-weight: normal;
   line-height: 24px;
   margin: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  margin-top: 1px;
 }
 
 .contact-slogan {
@@ -1605,7 +1646,7 @@ label.warranty-block {
   display: flex;
   padding-bottom: 20px;
   width: 32.33333%;
-  margin-left: 41px;
+  margin-left: 39px;
 }
 
 .bottom-footer {
@@ -1755,11 +1796,11 @@ label.warranty-block {
 
 .continuation:hover,
 .continuation:focus {
-  color: rgb(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .continuation:active {
-  color: rgb(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .cart {
@@ -1953,7 +1994,7 @@ label.warranty-block {
 }
 
 .login:active {
-  color: rgb(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .login span {
@@ -1985,7 +2026,11 @@ label.warranty-block {
 .orders-link {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  padding-right: 31px;
+  padding-right: 30px;
+}
+
+.personal-link {
+  padding-left: 2px;
 }
 
 .orders-link,
@@ -1994,7 +2039,6 @@ label.warranty-block {
   font-size: 16px;
   line-height: 18px;
   text-decoration: underline;
-
 }
 
 .orders-link:focus,
@@ -2006,7 +2050,7 @@ label.warranty-block {
 
 .orders-link:active,
 .personal-link:active {
-  color: rgb(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .list-style-link {
@@ -2027,7 +2071,7 @@ label.warranty-block {
 
 
 .login:active {
-  color: rgb(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .user-link {
@@ -2122,6 +2166,10 @@ label.warranty-block {
   display: none;
 }
 
+.breadcrumbs-perforators {
+  letter-spacing: 0.1px;
+}
+
 .perforators-title {
   background-color: #f2f6f8;
   -webkit-box-sizing: border-box;
@@ -2132,6 +2180,7 @@ label.warranty-block {
   line-height: 30px;
   text-transform: uppercase;
   padding: 28px;
+  padding-left: 27px;
   margin-bottom: 8px;
 }
 
@@ -2554,15 +2603,20 @@ label.warranty-block {
   width: 59px;
 }
 
+.new-goods::before {
+  background: url(../img/new-flag.png) no-repeat 0 0;
+  content: "";
+  height: 80px;
+  position: absolute;
+  right: -31px;
+  top: 0px;
+  width: 91px;
+}
+
+
 .popular-item {
   margin-top: 23px;
 }
-
-.manufactures li {
-  width: 220px;
-  height: 145px;
-}
-
 
 .slider-controls label {
   background-color: transparent;
