@@ -116,7 +116,7 @@ input[type="radio"].visually-hidden {
   -ms-flex-order: 2;
   order: 2;
   padding-bottom: 11px;
-  padding-left: 46px;
+  padding-left: 47px;
   padding-top: 10px;
 }
 
@@ -151,6 +151,10 @@ input[type="radio"].visually-hidden {
 
 .label-search:hover {
   background-color: #212a3a;
+}
+
+.user-input::placeholder {
+  color: #999999;
 }
 
 .label-search:active,
@@ -230,7 +234,7 @@ input[type="radio"].visually-hidden {
   text-align: center;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  padding-right: 4px;
+  padding-right: 1px;
 }
 
 .button-box {
@@ -1874,11 +1878,6 @@ input[type="radio"].visually-hidden {
   outline: none;
 }
 
-.user-input[placeholder] {
-  color: #a9a9a9;
-  opacity: 0.7;
-}
-
 .user-input:hover {
   border: 2px solid #b5b5b5;
 }
@@ -2298,7 +2297,7 @@ input[type="radio"].visually-hidden {
   justify-content: space-around;
   margin-bottom: 19px;
   padding-top: 8px;
-  padding-bottom: 12px;
+  padding-bottom: 11px;
 }
 
 .goods {
@@ -2456,22 +2455,23 @@ input[type="radio"].visually-hidden {
 .pagination-next {
   border: 1px solid #e5e5e5;
   color: #000000;
+  padding-top: 9px;
+  margin-left: 5px;
+  padding-left: 32px;
+  padding-right: 24px;
+  padding-right: 32px;
+}
+
+.perforators-slogan-two {
+  letter-spacing: 0.13px;
 }
 
 .pagination-item {
   border-radius: 2px;
   padding-left: 15px;
-  padding-right: 15px;
+  padding-right: 14px;
   padding-top: 10px;
   padding-bottom: 10px;
-}
-
-.pagination-next {
-  padding-top: 9px;
-  margin-left: 5px;
-  padding-left: 31px;
-  padding-right: 24px;
-  padding-right: 30px;
 }
 
 .pagination-item:focus,
@@ -2491,10 +2491,6 @@ input[type="radio"].visually-hidden {
 .perforators-slogan-one,
 .perforators-slogan-two {
   margin: 0;
-}
-
-.perforators-slogan-two {
-  letter-spacing: 0.1px;
 }
 
 .couple-of-words {
@@ -2795,7 +2791,7 @@ input[type="radio"].visually-hidden {
 
 .line {
   border: 0.5px solid #e5e5e5;
-  margin: 0 0 16px 0;
+  margin: 0 0 15px 0;
 }
 
 .price-min+span {
@@ -2805,6 +2801,7 @@ input[type="radio"].visually-hidden {
 
 .price-controls span {
   padding-right: 2px;
+  padding-bottom: 3px;
 }
 
 .slider-arrow-left {
