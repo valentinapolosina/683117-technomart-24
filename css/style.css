@@ -2386,7 +2386,7 @@ input[type="radio"].visually-hidden {
 .current {
   border-bottom: none;
   color: #ee3643;
-  padding-right: 70px;
+  margin-right: 70px;
 }
 
 .function-item {
