@@ -555,6 +555,11 @@ input[type="radio"].visually-hidden {
   flex-wrap: wrap;
 }
 
+.list-reset {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
 .site-item {
   color: #ffffff;
   display: block;
@@ -846,14 +851,11 @@ input[type="radio"].visually-hidden {
   left: 1px;
   min-width: 210px;
   padding: 40px 0;
-  padding-top: 43px;
+  padding-top: 42px;
   padding-right: 2px;
   position: absolute;
   top: 0;
   width: 218px;
-}
-
-.actions {
   display: none;
 }
 
@@ -866,10 +868,12 @@ input[type="radio"].visually-hidden {
   border-bottom-color: #63a63e;
   color: #32425c;
   display: block;
-  margin-left: 40px;
+  margin-left: 39px;
   margin-bottom: 7px;
   padding: 7px 0;
-  width: 129px;
+  width: 121px;
+  padding-left: 6px;
+  padding-right: 2px;
 }
 
 .bosh {
@@ -914,18 +918,19 @@ input[type="radio"].visually-hidden {
 
 .button-buy {
   background-color: #63a63e;
-  -webkit-box-shadow: 0 3px 0 0 rgba(54, 115, 21, 1);
-  box-shadow: 0 3px 0 0 rgba(54, 115, 21, 1);
+  -webkit-box-shadow: inset 0 -3px 0 0 rgba(54, 115, 21, 1);
+  box-shadow: inset 0 -3px 0 0 rgba(54, 115, 21, 1);
   display: block;
   font-weight: normal;
   margin: 2px auto;
-  margin-bottom: 11px;
+  margin-bottom: 9px;
   margin-left: 39px;
-  padding: 5px 0;
+  padding: 8px 0;
   text-transform: uppercase;
   width: 124px;
   padding-right: 11px;
-  padding-top: 10px;
+  padding-top: 8px;
+  padding-bottom: 9px;
 }
 
 .icon-box-inner {
@@ -940,7 +945,7 @@ input[type="radio"].visually-hidden {
 .button-buy:active {
   background-color: #518534;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .button-bookmark {
@@ -1495,7 +1500,7 @@ input[type="radio"].visually-hidden {
   line-height: 24px;
   list-style: none;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   max-width: 570px;
 }
 
@@ -2251,9 +2256,6 @@ input[type="radio"].visually-hidden {
 }
 
 .filter-list {
-  -webkit-box-align: baseline;
-  -ms-flex-align: baseline;
-  align-items: baseline;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2302,6 +2304,7 @@ input[type="radio"].visually-hidden {
   flex-direction: column;
   margin-left: 20px;
   width: 700px;
+  padding-top: 12px;
 }
 
 .list {
@@ -2318,6 +2321,9 @@ input[type="radio"].visually-hidden {
   margin-bottom: 19px;
   padding-top: 8px;
   padding-bottom: 11px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .goods {
@@ -2355,6 +2361,9 @@ input[type="radio"].visually-hidden {
   margin: 0;
   margin-left: 15px;
   margin-top: 2px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .for-suction {
@@ -2367,11 +2376,16 @@ input[type="radio"].visually-hidden {
   font-weight: normal;
   line-height: 18px;
   text-transform: uppercase;
+  margin-right: 44px;
 }
 
 .for-sorting {
   margin-left: 3px;
   margin-right: 140px;
+}
+
+.type-item {
+  margin-right: 65px;
 }
 
 .triangle-sorting {
@@ -2389,7 +2403,8 @@ input[type="radio"].visually-hidden {
   margin-left: auto;
   margin-right: 18px;
   width: 44px;
-  margin-top: 2px;
+  min-width: 44px;
+  margin-top: 3px;
 }
 
 .sorting-down {
@@ -2412,10 +2427,6 @@ input[type="radio"].visually-hidden {
   border-bottom: none;
   color: #ee3643;
   margin-right: 70px;
-}
-
-.function-item {
-  margin-left: 65px;
 }
 
 .for-suction:focus,
@@ -2575,12 +2586,6 @@ input[type="radio"].visually-hidden {
   opacity: 0.8;
 }
 
-.list {
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 .filter-option label {
   cursor: pointer;
   display: block;
@@ -2622,17 +2627,17 @@ input[type="radio"].visually-hidden {
 
 .filter-input-checkbox + label:hover:before,
 .filter-input-checkbox:focus + label:before {
-    opacity: 1;
+  opacity: 1;
 }
 
 .filter-input-radio + label:hover:before,
 .filter-input-radio:focus + label:before {
-    opacity: 1;
+  opacity: 1;
 }
 
 .filter-input-radio + label:hover:after,
 .filter-input-radio:focus + label:after {
-    opacity: 1;
+  opacity: 1;
 }
 
 .new::before {
@@ -2914,9 +2919,9 @@ input[type="radio"].visually-hidden {
 }
 
 .modal-show {
-    display: block;
-    -webkit-animation: bounce 0.6s;
-    animation: bounce 0.6s;
+  display: block;
+  -webkit-animation: bounce 0.6s;
+  animation: bounce 0.6s;
 }
 
 .modal-error {
@@ -2978,7 +2983,7 @@ input[type="radio"].visually-hidden {
   0%,
   100% {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
   }
 
   10%,
@@ -2987,7 +2992,7 @@ input[type="radio"].visually-hidden {
   70%,
   90% {
     -webkit-transform: translateX(-10px);
-            transform: translateX(-10px);
+    transform: translateX(-10px);
   }
 
   20%,
@@ -2995,7 +3000,7 @@ input[type="radio"].visually-hidden {
   60%,
   80% {
     -webkit-transform: translateX(10px);
-            transform: translateX(10px);
+    transform: translateX(10px);
   }
 }
 
@@ -3003,7 +3008,7 @@ input[type="radio"].visually-hidden {
   0%,
   100% {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
   }
 
   10%,
@@ -3012,7 +3017,7 @@ input[type="radio"].visually-hidden {
   70%,
   90% {
     -webkit-transform: translateX(-10px);
-            transform: translateX(-10px);
+    transform: translateX(-10px);
   }
 
   20%,
@@ -3020,7 +3025,7 @@ input[type="radio"].visually-hidden {
   60%,
   80% {
     -webkit-transform: translateX(10px);
-            transform: translateX(10px);
+    transform: translateX(10px);
   }
 }
 
